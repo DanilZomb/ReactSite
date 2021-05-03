@@ -1,0 +1,69 @@
+.create{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid transparent;
+    margin-top:115px;
+}
+.heading-create{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    color: #99EFD0;    
+}
+.btn-getStart{
+    border:1px solid #F2994A;
+    width:164px;
+    height:54px;
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    margin: 46px auto;   
+    cursor: pointer;
+}
+.btn-getStart:hover{
+    border: 1px solid #fc7500;
+    color:#fc7500;
+    animation: smoothly-color7 0.3s ease-in-out;
+}
+@keyframes smoothly-color7{
+    0%{
+        border: 1px solid #F2994A;
+        color:#F2994A;
+    }
+    100%{
+        border: 1px solid #fc7500;
+        color:#fc7500;
+    }
+}
+.circleImg{
+    margin-top: -190px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .circleImg{
+        margin-top: -190px;
+        width: 130%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .circleImg{
+        margin-top: -90px;
+        width: 130%;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .circleImg{
+        margin-top: -50px;
+        width: 130%;
+    }
+}

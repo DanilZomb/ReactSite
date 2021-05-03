@@ -1,0 +1,117 @@
+.traffic{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    border:1px solid transparent;
+    margin-top: 119px;
+}
+.traffic-container{
+    border:1px solid transparent;
+    max-width: 470px;
+    margin-top: 45px;
+}
+.graficImg{
+    border: 1px solid transparent;
+    margin-left:45px;
+}
+.heading-traffic{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    color: #99EFD0;
+}
+.p-traffic{
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #8476AA;
+    margin-top: 32px;
+}
+.text-color{
+    color:#F2994A;
+}
+.traffic-btn{
+    margin-top: 43px;
+    border:1px solid #F2994A;
+    width:155px;
+    height:48px;
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.traffic-btn:hover{
+    border: 1px solid #f88825;
+    background:#f88825;
+    animation: smoothly-color2 0.3s ease-in-out;
+}
+@keyframes smoothly-color2{
+    0%{
+        border: 1px solid #F2994A;
+        background:#F2994A;
+    }
+    100%{
+        border: 1px solid #f88825;
+        background:#f88825;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .traffic-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border:1px solid transparent;
+        max-width: 470px;
+        margin-top: 45px;
+    }
+    .graficImg{
+        border: 1px solid transparent;
+        margin-left:45px;
+        margin-top: 60px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .traffic-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border:1px solid transparent;
+        max-width: 470px;
+        margin-top: 45px;
+        text-align: center;
+    }
+    .graficImg{
+        border: 1px solid transparent;
+        margin-left:1px;
+        margin-top: 60px;
+        width:81%;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .traffic-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border:1px solid transparent;
+        max-width: 470px;
+        margin-top: 45px;
+        text-align: center;
+    }
+    .graficImg{
+        border: 1px solid transparent;
+        margin-left:1px;
+        margin-top: 60px;
+        width:91%;
+    }
+}
+

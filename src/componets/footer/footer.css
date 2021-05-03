@@ -1,0 +1,187 @@
+.footer{
+    border:1px solid transparent;
+    margin-top:185px;
+}
+.footer-header-container{
+    border:1px solid transparent;
+    max-width:992px;    
+    margin: 0 auto;
+}
+.footer-header-container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    max-width: 992px;
+}
+.pages-container-list{
+    border:1px solid transparent;
+    max-width:992px;
+    margin-top: 94px;
+}
+.pages-list{
+   display: flex;
+   justify-content: space-between;
+}
+.heading-footer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.325px;
+    color: #F2994A;       
+}
+.icons-item{
+    display: inline;
+    margin: 0 7px;
+}
+.footer-header-item-list{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.footer-p-item-list{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.footer-p-item-list:hover::before{
+    content: '>';
+    color:white;
+}
+.footer-p-item-list2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.footer-p-item-list2:hover::before{
+    content: '>';
+    color:white;
+}
+.footer-list{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 0 34px;
+    border: 1px solid transparent;
+    max-width: 500px;
+    margin:120px auto;
+}
+/* .footer-item{
+  
+} */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer-header-container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 1px solid transparent;
+        max-width: 992px;
+    }
+    .pages-list{
+        display: flex;
+        justify-content: space-around;
+     }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .footer-header-container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 1px solid transparent;
+        max-width: 992px;
+    }
+    .pages-list{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-list{
+        display: flex;
+        justify-content:space-around;
+        border: 1px solid transparent;
+        max-width: 400px;
+        margin:65px auto;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer-header-container2{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        border: 1px solid transparent;
+        max-width: 992px;
+    }
+    .pages-list{
+        display: flex;
+        justify-content: space-around;
+     }
+    .icons-container{
+        border:1px solid transparent;
+        margin-top: 25px;
+        margin-left: -33px;
+    }
+    .pages-container-list{
+        display: flex;
+        justify-content: center;
+        border:1px solid transparent;
+        max-width:992px;
+        margin-top: 59px;
+        margin-left: -49px;
+    }
+    .footer-header-item-list{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .footer-p-item-list{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-top: 19px;
+        cursor: pointer;
+    }
+    .footer-p-item-list2{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-top: 9px;
+        cursor: pointer;
+    }
+    .footer-list{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        border: 1px solid transparent;
+        max-width: 400px;
+        margin:65px 30px;
+    }
+    .footer-item{
+        margin-top: 15px;
+    }
+}

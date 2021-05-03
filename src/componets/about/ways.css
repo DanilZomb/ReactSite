@@ -1,0 +1,62 @@
+.ways{
+    border: 1px solid transparent;
+    margin-top: 120px;
+}
+.heading-ways{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.33px;
+    color: #99EFD0;
+}
+.ways-p{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #8476AA;   
+    margin-top: 32px;  
+}
+.ways-container-list{
+    border:1px solid transparent;
+    max-width: 1091px;
+    margin: 48px auto;
+}
+.ways-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.way-heading-item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.33px;
+    color: #99EFD0;    
+}
+.way-p-item{
+    margin-top: 13px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #8476AA;    
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .ways-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border:1px solid transparent;
+        margin-top: -19px;
+    }
+    
+   .ways-item{
+     margin: 15px 0;
+   }
+}
+

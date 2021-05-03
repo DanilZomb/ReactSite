@@ -1,0 +1,177 @@
+.searcher{
+    display:flex;
+    justify-content: center;
+    border:1px solid transparent;
+    margin-top: 196px;
+}
+.searcher-container{
+    width:940px;
+    height:324px;
+    background-image: url('img/SearcherBackground.png');
+    background-repeat: no-repeat;
+}
+.heading-searcher{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #F2994A;
+    margin-top: 50px;
+}
+.p-searcher{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #95A1BB;
+    margin-top: 20px;
+}
+.formInput{
+    display: flex;
+    justify-content: center;
+    border: 1px solid transparent;
+    margin-top: 23px;
+}
+.searcher-input{
+    border:1px solid ;
+    width:308px;
+    height:54px;
+    background: #F6F6F6;
+    opacity: 0.1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    opacity: 0.2;    
+}
+::placeholder{
+    padding-left: 10px;
+}
+.searcher-btn{
+    border:1px solid #F2994A;
+    width:128px;
+    height:54px;
+    background: #F2994A;
+    border-radius: 0px 5px 5px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.searcher-btn:hover{
+    border: 1px solid #fc7500;
+    background:#fc7500;
+    animation: smoothly-color9 0.3s ease-in-out;
+}
+@keyframes smoothly-color9{
+    0%{
+        border: 1px solid #F2994A;
+        background:#F2994A;
+    }
+    100%{
+        border: 1px solid #fc7500;
+        background:#fc7500;
+    }
+}
+.p2-searcher{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #8476AA;
+    margin-top: 16px;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .searcher-container{
+        max-width:640px;
+        height:324px;
+        background-image: url('img/SearcherBackground.png');
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .heading-searcher{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        color: #F2994A;
+        margin-top: 25px;
+    }
+    .searcher-container{
+        max-width:497px;
+        height:324px;
+        background-image: url('img/SearcherBackground.png');
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .online{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border:1px solid transparent;
+        margin-top: 150px;
+    }
+    .heading-searcher{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        color: #F2994A;
+        margin-top: 25px;
+    }
+    .searcher-container{
+        max-width:340px;
+        height:324px;
+        background-image: url('img/SearcherBackground.png');
+        background-repeat: no-repeat;
+    }
+    .searcher-input{
+        border:1px solid ;
+        max-width:158px;
+        height:34px;
+        background: #F6F6F6;
+        opacity: 0.1;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        opacity: 0.2;    
+    }
+    .searcher-btn{
+        border:1px solid #F2994A;
+        width:50px;
+        height:34px;
+        background: #F2994A;
+        border-radius: 0px 5px 5px 0px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+
