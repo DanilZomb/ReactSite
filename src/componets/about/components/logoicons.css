@@ -1,0 +1,16 @@
+.container-logos-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border:1px solid transparent;
+    max-width:1170px;
+    margin: 91px auto; 
+}
+.container-logos-item{
+    display:inline;
+}
+@media (min-width: 320px) and (max-width: 485px) {
+    .container-logos-list{
+        margin-left: -34px;
+    }
+}

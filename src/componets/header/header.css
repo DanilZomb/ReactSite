@@ -6,11 +6,6 @@
 ul{
     list-style-type:none;
 }
-.background1{
-    background-image: url(img/BackgroundMenu.png);
-    background-repeat: no-repeat;
-    border:1px solid #0F1144;
-}
 .logoImg{
     margin-top:-15px;
 }
@@ -186,7 +181,7 @@ ul{
 }
 @media (min-width: 1281px) {
     .background1{
-        background-image: url(img/BackgroundMenu.png);
+        background-image: url(../../assets/img/BackgroundMenu.png);
         border:1px solid #0F1144;
         background-size: cover;
     }
