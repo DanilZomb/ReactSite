@@ -3,21 +3,20 @@ import "./searcher.css";
 
 function Searcher() {
   return (
-    <div class="searcher">
-      <div class="searcher-container">
-        <h2 class="heading-searcher">There are many reasons to get down</h2>
-        <p class="p-searcher">
+    <main className="searcher">
+      <article className="searcher-container">
+        <h2 className="heading-searcher">There are many reasons to get down</h2>
+        <p className="p-searcher">
           There are many reasons to get
-          <br />
           down and start to get depressed about your situation.
         </p>
-        <form class="formInput">
-          <input type="text" placeholder="Your Email" class="searcher-input" />
-          <button class="searcher-btn">Send</button>
+        <form className="formInput">
+          <input type="text" placeholder="Your Email" className="searcher-input" />
+          <button className="searcher-btn">Send</button>
         </form>
-        <p class="p2-searcher">No spam. Only releases, updates and discounts</p>
-      </div>
-    </div>
+        <p className="p2-searcher">No spam. Only releases, updates and discounts</p>
+      </article>
+    </main>
   );
 }
 export default Searcher;

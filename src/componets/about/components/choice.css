@@ -1,10 +1,11 @@
 .choice{
     display: flex;
-    justify-content: center;
-    border:1px solid transparent;
+    align-items: center;
+    flex-direction: column;
     margin-top:95px;
-
+    border:1px solid transparent;
 }
+
 .heading-choice{
     font-style: normal;
     font-weight: bold;
@@ -12,6 +13,10 @@
     line-height: 50px;
     text-align: center;
     color: #99EFD0;
+    border:1px solid transparent;
+    max-width: 1100px;
+    word-break: break-word;
+    border:1px solid transparent;
 }
 .heding-choice-item{
     color:white;
@@ -25,6 +30,9 @@
     text-align: center;
     color: #8476AA;  
     margin-top: 13px; 
+    border:1px solid transparent;
+    word-break: break-word;
+    max-width: 700px;
 }
 .choice-list{
     display: flex;
@@ -80,12 +88,18 @@
     line-height: 22px;
     color: #99EFD0;  
     cursor: pointer;  
+    border: 1px solid transparent;
+    max-width:230px;
+    word-break: break-word;
 }
 .p-choice-item{
     font-size: 14px;
     line-height: 22px;
     color: #8476AA;    
     margin-top: 10px;
+    border:1px solid transparent;
+    max-width:250px;
+    word-break: break-word;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .choice-list{

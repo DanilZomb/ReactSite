@@ -11,12 +11,16 @@
     font-size: 42px;
     line-height: 50px;
     text-align: center;
-    color: #99EFD0;    
+    color: #99EFD0; 
+    border:1px solid transparent;
+    max-width:750px;
+    word-break: break-word;
 }
 .btn-getStart{
     border:1px solid #F2994A;
     width:164px;
-    height:54px;
+    padding:14px 0;
+    word-break: break-word;
     background: #F2994A;
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
     border-radius: 3px;
@@ -33,17 +37,17 @@
 }
 .btn-getStart:hover{
     border: 1px solid #fc7500;
-    color:#fc7500;
+    background:#fc7500;
     animation: smoothly-color7 0.3s ease-in-out;
 }
 @keyframes smoothly-color7{
     0%{
-        border: 1px solid #F2994A;
-        color:#F2994A;
+        border: 1px solid #fc7500;
+        background:#fc7500;
     }
     100%{
         border: 1px solid #fc7500;
-        color:#fc7500;
+        background:#fc7500;
     }
 }
 .circleImg{

@@ -1,19 +1,19 @@
-import React from 'react'
-import Circle from '../../../assets/img/Circle.png'
-import './create.css';
+import React from "react";
+import Circle from "../../../assets/img/Circle.png";
+import "./create.css";
 
 function Create() {
   return (
-    <div class="create">
-      <h2 class="heading-create">Create your <span class="text-color">next project</span> with startup
-                <br />framework
-            </h2>
-      <div class="create-container">
-        <button class="btn-getStart">Get started</button>
+    <main className="create">
+      <h2 className="heading-create">
+        Create your <span class="text-color">next project</span> with startup
+        framework
+      </h2>
+      <div className="create-container">
+        <button className="btn-getStart">Get started</button>
       </div>
-      <img src={Circle} alt="circle" class="circleImg" />
-    </div>
-
+      <img src={Circle} alt="circle" className="circleImg" />
+    </main>
   );
 }
 export default Create;

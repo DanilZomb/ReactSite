@@ -9,40 +9,40 @@ import Frame6 from "../../../assets/icons/Frame6.svg";
 
 function Logoicons() {
   return (
-    <div class="container-logos-icons">
-      <ul class="container-logos-list">
-        <li class="container-logos-item">
+    <nav className="container-logos-icons">
+      <ul className="container-logos-list">
+        <li className="container-logos-item">
           <a href="#">
             <img src={Frame} alt="icon" />
           </a>
         </li>
-        <li class="container-logos-item">
+        <li className="container-logos-item">
           <a href="#">
             <img src={Frame2} alt="icon" />
           </a>
         </li>
-        <li class="container-logos-item">
+        <li className="container-logos-item">
           <a href="#">
             <img src={Frame3} alt="icon" />
           </a>
         </li>
-        <li class="container-logos-item">
+        <li className="container-logos-item">
           <a href="#">
             <img src={Frame4} alt="icon" />
           </a>
         </li>
-        <li class="container-logos-item">
+        <li className="container-logos-item">
           <a href="#">
             <img src={Frame5} alt="icon" />
           </a>
         </li>
-        <li class="container-logos-item">
+        <li className="container-logos-item">
           <a href="#">
             <img src={Frame6} alt="icon" />
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 

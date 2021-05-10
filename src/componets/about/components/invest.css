@@ -19,6 +19,9 @@
     font-size: 42px;
     line-height: 50px;
     color: #99EFD0;
+    border:1px solid transparent;
+    max-width: 390px;
+    word-break: break-word;
 }
 .invest-p{
     font-size: 15px;
@@ -26,11 +29,15 @@
     letter-spacing: 0.5px;
     color: #8476AA;
     margin-top: 32px;
+    border: 1px solid transparent;
+    max-width: 460px;
+    word-break: break-word;
 }
 .invest-btn{
     border:1px solid #F2994A;
     width:155px;
-    height:54px;
+    padding:14px 0;
+    word-break: break-word;
     background: #F2994A;
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
     border-radius: 3px;

@@ -3,20 +3,20 @@ import Grafic from "../../../assets/img/Grafic.png";
 import "./traffic.css";
 
 function Traffic() {
-  return (
-    <div class="traffic">
-      <div class="traffic-container">
-        <h2 class="heading-traffic">
-          Increase your <br /> business <span class="text-color">traffic</span>
+  return(
+    <main className="traffic">
+      <article className="traffic-container">
+        <h2 className="heading-traffic">
+          Increase your business <span class="text-color">traffic</span>
         </h2>
-        <p class="p-traffic">
-          We are committed to processing the information in order to <br />
+        <p className="p-traffic">
+          We are committed to processing the information in order to 
           contact you and talk about your project.
         </p>
-        <button class="traffic-btn">Learn more</button>
-      </div>
-      <img src={Grafic} alr="grafic" class="graficImg" />
-    </div>
+        <button className="traffic-btn">Learn more</button>
+      </article>
+      <img src={Grafic} alt="grafic" className="graficImg" />
+    </main>
   );
 }
 export default Traffic;

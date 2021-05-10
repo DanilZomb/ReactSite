@@ -6,6 +6,9 @@
     background-image: url('../../../assets/img/backgroundsearcher.svg');
 }
 .searcher-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width:940px;
     height:324px;
     background-image: url('../../../assets/img/SearcherBackground.png');
@@ -19,6 +22,9 @@
     text-align: center;
     color: #F2994A;
     margin-top: 50px;
+    border:1px solid transparent;
+    max-width: 630px;
+    word-break: break-word;
 }
 .p-searcher{
     font-style: normal;
@@ -28,6 +34,9 @@
     text-align: center;
     color: #95A1BB;
     margin-top: 20px;
+    border: 1px solid transparent;
+    max-width: 350px;
+    word-break: break-word;
 }
 .formInput{
     display: flex;
@@ -57,7 +66,8 @@
 .searcher-btn{
     border:1px solid #F2994A;
     width:128px;
-    height:54px;
+    padding:14px 0;
+    word-break: break-word;
     background: #F2994A;
     border-radius: 0px 5px 5px 0px;
     font-style: normal;
@@ -86,13 +96,14 @@
     }
 }
 .p2-searcher{
-    display: flex;
-    justify-content: center;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #8476AA;
     margin-top: 16px;
+    border: 1px solid transparent;
+    max-width: 350px;
+    word-break: break-word;
 }
 @media (min-width: 768px) and (max-width: 1024px){
     .searcher-container{

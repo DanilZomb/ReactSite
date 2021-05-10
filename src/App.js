@@ -1,7 +1,7 @@
 import Header from "./componets/header/header";
 import About from "./componets/about/about";
 import Footer from "./componets/footer/footer";
-import "./App.css";
+//import "./App.css";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="background1">
         <Header />
       </div>
-      <div class="background2">
+      <div className="background2">
         <About />
         <Footer />
       </div>

@@ -6,12 +6,17 @@
 ul{
     list-style-type:none;
 }
+.background1{
+    background-image: url(../../assets/img/BackgroundMenu.png);
+    background-repeat: no-repeat;
+    border:1px solid #6a17a1;
+}
 .logoImg{
     margin-top:-15px;
 }
 .top{
     border:1px solid transparent;
-    margin-left:150px; 
+    margin-left:150px;
 }
 .navbar-toggler{
     margin-left: auto;
@@ -25,7 +30,6 @@ ul{
     border:1px solid transparent;
     max-width:1100px;
     margin-top: 51px;
-    
 }
 .header-menu{
     display: flex;
@@ -38,6 +42,7 @@ ul{
     text-transform: uppercase;
     margin-right: 320px;
     margin-top: -10px;
+    max-width: 600px;
 }
 .header-menu-item .a1:hover::after{
     position: absolute;
@@ -118,7 +123,8 @@ ul{
 .sign-in{
     border: 1px solid #F2994A;
     width:112px;
-    height:36px;
+    padding: 8px 0;
+    word-break: break-word;
     background: transparent;
     box-sizing: border-box;
     border-radius: 4px;
@@ -150,7 +156,8 @@ ul{
 .sign-up{
     border: 1px solid #F2994A;
     width:112px;
-    height:36px;
+    padding: 8px 0;
+    word-break: break-word;
     background: #F2994A;
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
     border-radius: 3px;

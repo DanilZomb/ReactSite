@@ -2,7 +2,7 @@
     border:1px solid transparent;
     margin-top:185px;
     background-image: url("../../assets/img/background.svg");
-    border-radius: 50px;
+   
 }
 .footer-header-container{
     border:1px solid transparent;
@@ -31,7 +31,10 @@
     font-size: 26px;
     line-height: 32px;
     letter-spacing: 0.325px;
-    color: #F2994A;       
+    color: #F2994A; 
+    border: 1px solid transparent;
+    max-width: 190px;
+    word-break: break-word;      
 }
 .icons-item{
     display: inline;
@@ -44,6 +47,9 @@
     line-height: 18px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+    border: 1px solid transparent;
+    max-width: 100px;
+    word-break: break-word;  
 }
 
 .footer-p-item-list{
@@ -55,10 +61,12 @@
     color: #FFFFFF;
     margin-top: 25px;
     cursor: pointer;
+    border: 1px solid transparent;
+    max-width: 100px;
+    word-break: break-word;
 }
-.footer-p-item-list:hover::before{
-    content: '>';
-    color:white;
+.footer-p-item-list:hover{
+    color:blue;
 }
 .footer-p-item-list2{
     font-style: normal;
@@ -69,10 +77,12 @@
     color: #FFFFFF;
     margin-top: 16px;
     cursor: pointer;
+    border: 1px solid transparent;
+    max-width: 100px;
+    word-break: break-word;
 }
-.footer-p-item-list2:hover::before{
-    content: '>';
-    color:white;
+.footer-p-item-list2:hover{
+    color:blue;
 }
 .footer-list{
     display: flex;
@@ -86,6 +96,11 @@
 .link-color{
     color: #FFFFFF;
     text-decoration: none;
+}
+.footer-item{
+    border: 1px solid transparent;
+    max-width: 150px;
+    word-break: break-word;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -125,9 +140,10 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .footer-header-container2{
         display: flex;
-        flex-wrap: wrap;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        text-align: center;
         border: 1px solid transparent;
         max-width: 992px;
     }
@@ -147,6 +163,18 @@
         max-width:992px;
         margin-top: 59px;
         margin-left: -49px;
+    }
+    .heading-footer{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: 0.325px;
+        color: #F2994A; 
+        border: 1px solid transparent;
+        max-width: 190px;
+        word-break: break-word;    
+       
     }
     .footer-header-item-list{
         font-style: normal;

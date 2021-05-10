@@ -5,41 +5,39 @@ import "./reasons.css";
 
 function Reasons() {
   return (
-    <div class="top">
-      <div class="reasons">
-        <div class="reasons-container">
-          <div class="reasons-inf-container">
-            <h2 class="heading">
-              Many reasons to get up <br /> and start to get back in <br /> the
+    <main className="top">
+      <article className="reasons">
+          <section className="reasons-inf-container">
+            <h2 className="heading">
+              Many reasons to get up and start to get back in the
               business
             </h2>
-            <p class="reasons-p">
-              The harder you work for something, the greater you’ll <br /> feel
+            <p className="reasons-p">
+              The harder you work for something, the greater you’ll feel
               when you achieve it.
             </p>
-            <div class="info-btns">
-              <button class="lern-more-btn">Learn more</button>
-              <button class="demo-btn">Demo</button>
+            <div className="info-btns">
+              <button className="lern-more-btn">Learn more</button>
+              <button className="demo-btn">Demo</button>
             </div>
-            <div class="video-container">
-              <img src={VideoPicture} alt="video" class="videoImg" />
-              <div class="video-texts-container">
-                <div class="video-text-container1">
-                  <p class="reasons-p2">
-                    The harder you work for something, the greater <br />
+            <div className="video-container">
+              <img src={VideoPicture} alt="video" className="videoImg" />
+              <div className="video-texts-container">
+                <div className="video-text-container1">
+                  <p className="reasons-p2">
+                    The harder you work for something, the greater
                     you’ll feel when you achieve it.
                   </p>
                 </div>
-                <div class="video-text-container2">
-                  <p class="reasons-p3">Watch preview</p>
+                <div className="video-text-container2">
+                  <p className="reasons-p3">Watch preview</p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <img src={Human} alt="human" class="humanImg" />
-      </div>
-    </div>
+          </section>
+        <img src={Human} alt="human" className="humanImg" />
+      </article>
+    </main>
   );
 }
 

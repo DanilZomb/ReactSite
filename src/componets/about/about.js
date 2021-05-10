@@ -9,7 +9,7 @@ import "./about.css";
 
 function About() {
   return (
-      <div class="about">
+      <div className="about">
         <Traffic />
         <Ways />
         <Create />

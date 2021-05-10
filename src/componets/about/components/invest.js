@@ -4,22 +4,22 @@ import './invest.css';
 
 function Invest() {
   return (
-    <div class="invest">
-      <div class="invest-container">
-        <h2 class="heading-invest">Invest property for <br /> better <span class="text-color">business</span>
+    <main className="invest">
+      <section className="invest-container">
+        <h2 className="heading-invest">Invest property for better <span class="text-color">business</span>
         </h2>
-        <p class="invest-p"> We are committed to processing the information in order to <br />
+        <p className="invest-p"> We are committed to processing the information in order to 
             contact
             you and
             talk about your
             project. We are
-            committed to <br /> processing the information.</p>
-        <button class="invest-btn">Learn more</button>
-      </div>
-      <div class="invest-img-container">
-      <img src={Price} alt="price" class="investImg" />
-      </div>
-    </div>
+            committed to processing the information.</p>
+        <button className="invest-btn">Learn more</button>
+      </section>
+      <section className="invest-img-container">
+      <img src={Price} alt="price" className="investImg" />
+      </section>
+    </main>
   );
 }
 export default Invest;
