@@ -9,14 +9,14 @@ import "./about.css";
 
 function About() {
   return (
-      <div className="about">
+      <main className="about">
         <Traffic />
         <Ways />
         <Create />
         <Invest />
         <Online />
         <Searcher />
-      </div>
+      </main>
   );
 }
 export default About;

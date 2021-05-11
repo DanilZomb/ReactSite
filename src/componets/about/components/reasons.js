@@ -5,9 +5,9 @@ import "./reasons.css";
 
 function Reasons() {
   return (
-    <main className="top">
-      <article className="reasons">
-          <section className="reasons-inf-container">
+    <section className="top">
+      <div className="reasons">
+          <div className="reasons-inf-container">
             <h2 className="heading">
               Many reasons to get up and start to get back in the
               business
@@ -34,10 +34,10 @@ function Reasons() {
                 </div>
               </div>
             </div>
-          </section>
+          </div>
         <img src={Human} alt="human" className="humanImg" />
-      </article>
-    </main>
+      </div>
+    </section>
   );
 }
 

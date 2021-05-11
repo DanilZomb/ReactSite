@@ -3,7 +3,7 @@ import "./ways.css";
 
 function Ways() {
   return (
-    <main className="ways">
+    <section className="ways">
       <h2 className="heading-ways">
         3 Simple Ways To <span className="text-color">Save</span> A Bunch Of 
         <span className="text-color">Money</span> When Buying A New Computer
@@ -12,7 +12,7 @@ function Ways() {
           Fully customizable and neatly organized components
           will help you work faster without limiting creative freedom.
         </p>
-      <article className="ways-container">
+      <div className="ways-container">
           <ul className="ways-list">
             <li className="ways-item">
               <h3 className="way-heading-item">100+</h3>
@@ -36,8 +36,8 @@ function Ways() {
               </p>
             </li>
           </ul>
-        </article>
-      </main>
+        </div>
+      </section>
   );
 }
 export default Ways;

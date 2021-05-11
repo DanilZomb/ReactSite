@@ -59,10 +59,10 @@ function Header() {
                 <div className="sign-btns">
                   <ul className="sign-btns-list">
                     <li className="sign-btns-item">
-                      <button className="sign-in">Sign in</button>
+                      <button type ="button" className="sign-in">Sign in</button>
                     </li>
                     <li className="sign-btns-item">
-                      <button className="sign-up">Sign up</button>
+                      <button type ="button" className="sign-up">Sign up</button>
                     </li>
                   </ul>
                 </div>

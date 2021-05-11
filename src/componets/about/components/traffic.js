@@ -4,8 +4,8 @@ import "./traffic.css";
 
 function Traffic() {
   return(
-    <main className="traffic">
-      <article className="traffic-container">
+    <section className="traffic">
+      <div className="traffic-container">
         <h2 className="heading-traffic">
           Increase your business <span class="text-color">traffic</span>
         </h2>
@@ -14,9 +14,9 @@ function Traffic() {
           contact you and talk about your project.
         </p>
         <button className="traffic-btn">Learn more</button>
-      </article>
+      </div>
       <img src={Grafic} alt="grafic" className="graficImg" />
-    </main>
+    </section>
   );
 }
 export default Traffic;

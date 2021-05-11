@@ -3,13 +3,12 @@ import "./choice.css";
 
 function Choice() {
   return(
-    <main className="choice">
+    <section className="choice">
        <h2 className="heading-choice">Your choice</h2>
        <p className="choice-p">
           There are many reasons to get down and start to get depressed about
           your situation.
         </p>
-        <article>
           <ul className="choice-list">
             <li className="choice-item icn1">
               <h3 className="heding-choice-item">Ecstatic elegance</h3>
@@ -60,8 +59,7 @@ function Choice() {
               </p>
             </li> 
           </ul>
-        </article>
-    </main>
+    </section>
   );
 }
 

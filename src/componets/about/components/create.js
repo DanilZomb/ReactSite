@@ -4,7 +4,7 @@ import "./create.css";
 
 function Create() {
   return (
-    <main className="create">
+    <section className="create">
       <h2 className="heading-create">
         Create your <span class="text-color">next project</span> with startup
         framework
@@ -13,7 +13,7 @@ function Create() {
         <button className="btn-getStart">Get started</button>
       </div>
       <img src={Circle} alt="circle" className="circleImg" />
-    </main>
+    </section>
   );
 }
 export default Create;

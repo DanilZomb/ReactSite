@@ -3,8 +3,8 @@ import "./searcher.css";
 
 function Searcher() {
   return (
-    <main className="searcher">
-      <article className="searcher-container">
+    <section className="searcher">
+      <div className="searcher-container">
         <h2 className="heading-searcher">There are many reasons to get down</h2>
         <p className="p-searcher">
           There are many reasons to get
@@ -15,8 +15,8 @@ function Searcher() {
           <button className="searcher-btn">Send</button>
         </form>
         <p className="p2-searcher">No spam. Only releases, updates and discounts</p>
-      </article>
-    </main>
+      </div>
+    </section>
   );
 }
 export default Searcher;
