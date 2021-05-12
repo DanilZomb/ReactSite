@@ -68,6 +68,7 @@ content: url(../../../assets/icons/online-icon1.svg);
     border:1px solid transparent;
     max-width: 130px;
     word-break: break-word;
+    
 }
 .online-heading-item:hover{
     color:#0d6efd;

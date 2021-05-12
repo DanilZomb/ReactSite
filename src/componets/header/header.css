@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
 }
-  
 ul{
     list-style-type:none;
 }
@@ -11,18 +10,21 @@ ul{
     background-repeat: no-repeat;
     border:1px solid #6a17a1;
 }
-.logoImg{
-    margin-top:-15px;
-}
+
+
+
+
 .top{
     border:1px solid transparent;
     margin-left:150px;
+}
+.logoImg{
+    margin-top:-15px;
 }
 .navbar-toggler{
     margin-left: auto;
     margin-top:-52px;
 } 
-
 .header{
     display: flex; 
     justify-content:flex-start;

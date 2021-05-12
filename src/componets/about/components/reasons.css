@@ -144,7 +144,8 @@
  }
  .videoImg{
      cursor:pointer;
-     height:51%;
+     width:140px;
+     height:80px;
  }
  .videoImg:hover{
     animation: show 0.2s linear;

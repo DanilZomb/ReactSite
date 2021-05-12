@@ -1,6 +1,6 @@
 import React from "react";
-import Price from "../../../assets/img/Price.png";
 import "./invest.css";
+import BusinessPrice from "../../../assets/img/business-price.png";
 
 function Invest() {
   return (
@@ -17,7 +17,7 @@ function Invest() {
         <button className="invest-btn">Learn more</button>
       </div>
       <div className="invest-img-container">
-        <img src={Price} alt="price" className="investImg" />
+        <img src={BusinessPrice} alt="business-price" className="investImg" />
       </div>
     </section>
   );

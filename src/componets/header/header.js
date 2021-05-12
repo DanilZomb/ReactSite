@@ -1,9 +1,10 @@
 import React from "react";
-import LogoImg from "../../assets/img/Logo.png";
+import "./header.css";
 import Reasons from "../about/components/reasons";
 import Logoicons from "../about/components/logoicons";
 import Choice from "../about/components/choice";
-import "./header.css";
+import LogoIcon from "../../assets/icons/logo-icon.svg";
+
 
 function Header() {
   return (
@@ -13,7 +14,7 @@ function Header() {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light">
               <a href="#">
-                <img src={LogoImg} alt="logo" className="logoImg" />
+                <img src={LogoIcon} alt="logo-icon" className="logoImg" />
               </a>
               <button
                 className="navbar-toggler "

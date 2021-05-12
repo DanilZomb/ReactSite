@@ -1,6 +1,6 @@
 import React from "react";
-import VideoPicture from "../../../assets/img/Picture.png";
-import Human from "../../../assets/img/Human.png";
+import VideoPlayer from "../../../assets/img/video-player.png";
+import Human from "../../../assets/img/human.svg";
 import "./reasons.css";
 
 function Reasons() {
@@ -21,7 +21,9 @@ function Reasons() {
               <button className="demo-btn">Demo</button>
             </div>
             <div className="video-container">
-              <img src={VideoPicture} alt="video" className="videoImg" />
+              <a href ="#">
+              <img src={VideoPlayer} alt="video-player" className="videoImg" width ="140px" height="80px"/>
+              </a>
               <div className="video-texts-container">
                 <div className="video-text-container1">
                   <p className="reasons-p2">
@@ -35,7 +37,7 @@ function Reasons() {
               </div>
             </div>
           </div>
-        <img src={Human} alt="human" className="humanImg" />
+        <img src={Human} alt="human" className="humanImg" width="51%" />
       </div>
     </section>
   );

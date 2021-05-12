@@ -1,11 +1,11 @@
 import React from "react";
-import FindInformation from "../../../assets/img/findInformation.png";
+import FindInformation from "../../../assets/img/find-information.png";
 import "./online.css";
 
 function Online() {
   return (
     <section className="online">
-      <img src={FindInformation} alt="informtion" className="onlineImg" />
+      <img src={FindInformation} alt="find-informtion" className="onlineImg" />
       <div className="online-container">
         <div className="online-text-container">
           <h2 className="heading-online">Help Finding Information Online</h2>
@@ -17,7 +17,7 @@ function Online() {
         <div className="online-container-list">
           <ul className="online-list">
             <li className="online-item icn1">
-              <h3 className="online-heading-item">Feature One</h3>
+              <h3 className="online-heading-item" tabindex="0">Feature One</h3>
               <p className="online-p-item">
                 Fully customizable and neatly
                 organized components will
@@ -25,7 +25,7 @@ function Online() {
               </p>
             </li>
             <li className="online-item icn2">
-              <h3 className="online-heading-item">Feature Two</h3>
+              <h3 className="online-heading-item" tabindex="0">Feature Two</h3>
               <p className="online-p-item">
                 Fully customizable and neatly
                 organized components will

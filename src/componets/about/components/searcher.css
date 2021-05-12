@@ -1,18 +1,17 @@
 .searcher{
     display:flex;
     justify-content: center;
-    border:1px solid transparent;
     margin-top: 196px;
     background-image: url('../../../assets/img/backgroundsearcher.svg');
+    border:1px solid transparent;
 }
 .searcher-container{
     display: flex;
     align-items: center;
     flex-direction: column;
     width:940px;
-    height:324px;
-    background-image: url('../../../assets/img/SearcherBackground.png');
-    background-repeat: no-repeat;
+    background-image: url('../../../assets/img/searcher-background.png');
+    border:1px solid transparent;
 }
 .heading-searcher{
     font-style: normal;
@@ -66,7 +65,6 @@
 .searcher-btn{
     border:1px solid #F2994A;
     width:128px;
-    padding:14px 0;
     word-break: break-word;
     background: #F2994A;
     border-radius: 0px 5px 5px 0px;
@@ -109,7 +107,7 @@
     .searcher-container{
         max-width:640px;
         height:324px;
-        background-image: url('../../../assets/img/SearcherBackground.png');
+        background-image: url('../../../assets/img/searcher-background.png');
         background-repeat: no-repeat;
     }
 }
@@ -126,17 +124,14 @@
     .searcher-container{
         max-width:497px;
         height:324px;
-        background-image: url('../../../assets/img/SearcherBackground.png');
+        background-image: url('../../../assets/img/searcher-background.png');
         background-repeat: no-repeat;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    .online{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        border:1px solid transparent;
-        margin-top: 150px;
+    .searcher-container{
+        max-width:340px;
+        background-image: url('../../../assets/img/searcher-background.png');
     }
     .heading-searcher{
         font-style: normal;
@@ -147,16 +142,10 @@
         color: #F2994A;
         margin-top: 25px;
     }
-    .searcher-container{
-        max-width:340px;
-        height:324px;
-        background-image: url('../../../assets/img/SearcherBackground.png');
-        background-repeat: no-repeat;
-    }
     .searcher-input{
         border:1px solid ;
         max-width:158px;
-        height:34px;
+        max-height:34px;
         background: #F6F6F6;
         opacity: 0.1;
         border-top-left-radius: 5px;
@@ -170,8 +159,8 @@
     }
     .searcher-btn{
         border:1px solid #F2994A;
-        width:50px;
-        height:34px;
+        max-width:50px;
+        max-height:34px;
         background: #F2994A;
         border-radius: 0px 5px 5px 0px;
         font-style: normal;
@@ -183,6 +172,7 @@
         text-transform: uppercase;
         color: #FFFFFF;
         cursor: pointer;
+        
     }
 }
 

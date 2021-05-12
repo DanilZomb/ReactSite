@@ -20,6 +20,7 @@
 }
 .heding-choice-item{
     color:white;
+    text-decoration: none;
 }
 .heding-choice-item:hover{
     color:#0d6efd;
@@ -44,37 +45,37 @@
     list-style-type: none;
 }
 .choice-item.icn1::before{
-   content:url(../../../assets/icons/Icon-choice-1.svg);
+   content:url(../../../assets/icons/icon-choice1.svg);
    float: left;
    margin-left: -51px;
    margin-top: 0px;
 }
 .choice-item.icn2::before{
-    content:url(../../../assets/icons/Icon-choice-2.svg);
+    content:url(../../../assets/icons/icon-choice2.svg);
     float: left;
     margin-left: -51px;
     margin-top: 0px;
  }
  .choice-item.icn3::before{
-    content:url(../../../assets/icons/Icon-choice-3.svg);
+    content:url(../../../assets/icons/icon-choice3.svg);
     float: left;
     margin-left: -51px;
     margin-top: 0px;
  }
  .choice-item.icn4::before{
-    content:url(../../../assets/icons/Icon-choice-4.svg);
+    content:url(../../../assets/icons/icon-choice4.svg);
     float: left;
     margin-left: -51px;
     margin-top: 0px;
  }
  .choice-item.icn5::before{
-    content:url(../../../assets/icons/Icon-choice-5.svg);
+    content:url(../../../assets/icons/icon-choice5.svg);
     float: left;
     margin-left: -51px;
     margin-top: 0px;
  }
  .choice-item.icn6::before{
-    content:url(../../../assets/icons/Icon-choice-6.svg);
+    content:url(../../../assets/icons/icon-choice6.svg);
     float: left;
     margin-left: -51px;
     margin-top: 0px;

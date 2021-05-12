@@ -1,5 +1,5 @@
 import React from "react";
-import Circle from "../../../assets/img/Circle.png";
+import CreateCircle from "../../../assets/img/create-circle.svg";
 import "./create.css";
 
 function Create() {
@@ -9,10 +9,8 @@ function Create() {
         Create your <span class="text-color">next project</span> with startup
         framework
       </h2>
-      <div className="create-container">
-        <button className="btn-getStart">Get started</button>
-      </div>
-      <img src={Circle} alt="circle" className="circleImg" />
+      <button className="btn-getStart">Get started</button>
+      <img src={CreateCircle} alt="create-circle" className="circleImg" />
     </section>
   );
 }

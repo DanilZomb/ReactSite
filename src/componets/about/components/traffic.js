@@ -1,5 +1,5 @@
 import React from "react";
-import Grafic from "../../../assets/img/Grafic.png";
+import GraficTraffic from "../../../assets/img/grafic-traffic.png";
 import "./traffic.css";
 
 function Traffic() {
@@ -15,7 +15,7 @@ function Traffic() {
         </p>
         <button className="traffic-btn">Learn more</button>
       </div>
-      <img src={Grafic} alt="grafic" className="graficImg" />
+      <img src={GraficTraffic} alt="grafic-traffic" className="graficImg" />
     </section>
   );
 }

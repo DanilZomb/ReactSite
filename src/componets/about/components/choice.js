@@ -11,7 +11,7 @@ function Choice() {
         </p>
           <ul className="choice-list">
             <li className="choice-item icn1">
-              <h3 className="heding-choice-item">Ecstatic elegance</h3>
+              <a className="heding-choice-item" tabindex="0">Ecstatic elegance</a>
               <p className="p-choice-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -19,7 +19,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn2">
-              <h3 className="heding-choice-item">Folly words widow</h3>
+              <a className="heding-choice-item" tabindex="0">Folly words widow</a>
               <p className="p-choice-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -27,7 +27,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn3">
-              <h3 className="heding-choice-item">Possible procured trifling</h3>
+              <a className="heding-choice-item" tabindex="0">Possible procured trifling</a>
               <p className="p-choice-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -35,7 +35,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn4">
-              <h3 className="heding-choice-item">Open game</h3>
+              <a className="heding-choice-item" tabindex="0">Open game</a>
               <p className="p-choice-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -43,7 +43,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn5">
-              <h3 className="heding-choice-item">Endeavor</h3>
+              <a className="heding-choice-item" tabindex="0">Endeavor</a>
               <p className="p-choice-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -51,7 +51,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn6">
-              <h3 className="heding-choice-item">Comfort pursuit</h3>
+              <a className="heding-choice-item" tabindex="0">Comfort pursuit</a>
               <p className="p-choice-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />

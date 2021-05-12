@@ -1,7 +1,7 @@
 import React from "react";
-import Google from "../../assets/img/Google.png";
-import Twitter from "../../assets/img/Twitter.png";
-import Facebook from "../../assets/img/Facebook.png";
+import Google from "../../assets/img/google.png";
+import Twitter from "../../assets/img/twitter.png";
+import Facebook from "../../assets/img/facebook.png";
 import "./footer.css";
 
 function Footer() {
@@ -14,17 +14,17 @@ function Footer() {
             <ul className="icons-list">
               <li className="icons-item">
                 <a href="#">
-                  <img src={Google} alt="icon"/>
+                  <img src={Google} alt="google"/>
                 </a>
               </li>
               <li className="icons-item">
                 <a href="#">
-                  <img src={Twitter} alt="icon" />
+                  <img src={Twitter} alt="twitter" />
                 </a>
               </li>
               <li className="icons-item">
                 <a href="#">
-                  <img src={Facebook} alt="icon" />
+                  <img src={Facebook} alt="facebook" />
                 </a>
               </li>
             </ul>
@@ -38,16 +38,16 @@ function Footer() {
                   <h3 className="footer-header-item-list">First</h3>
                 </li>
                 <li>
-                  <p className="footer-p-item-list">First page</p>
+                  <p className="footer-p-item-list" tabindex="0">First page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Second page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Second page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Third page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Third page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Fourth page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Fourth page</p>
                 </li>
               </ul>
             </li>
@@ -57,16 +57,16 @@ function Footer() {
                   <h3 className="footer-header-item-list">Second</h3>
                 </li>
                 <li>
-                  <p className="footer-p-item-list">First page</p>
+                  <p className="footer-p-item-list" tabindex="0">First page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Second page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Second page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Third page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Third page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Fourth page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Fourth page</p>
                 </li>
               </ul>
             </li>
@@ -76,16 +76,16 @@ function Footer() {
                   <h3 className="footer-header-item-list">Third</h3>
                 </li>
                 <li>
-                  <p className="footer-p-item-list">First page</p>
+                  <p className="footer-p-item-list" tabindex="0">First page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Second page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Second page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Third page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Third page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Fourth page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Fourth page</p>
                 </li>
               </ul>
             </li>
@@ -95,16 +95,16 @@ function Footer() {
                   <h3 className="footer-header-item-list">Foutrh</h3>
                 </li>
                 <li>
-                  <p className="footer-p-item-list">First page</p>
+                  <p className="footer-p-item-list" tabindex="0">First page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Second page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Second page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Third page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Third page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2">Fourth page</p>
+                  <p className="footer-p-item-list2" tabindex="0">Fourth page</p>
                 </li>
               </ul>
             </li>
