@@ -7,10 +7,10 @@ import "./footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-header-container">
-        <div className="footer-header-container2">
-          <h2 className="heading-footer">ARShakir</h2>
-          <div className="icons-container">
+      <div className="footer-wrapper">
+        <div className="footer-header-wrapper">
+          <h2 className="footer-title">ARShakir</h2>
+          <div className="icons-wrapper">
             <ul className="icons-list">
               <li className="icons-item">
                 <a href="#">
@@ -30,87 +30,87 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="pages-container-list">
+        <div className="pages-wrapper-list">
           <ul className="pages-list">
             <li className="pages-item">
               <ul>
                 <li>
-                  <h3 className="footer-header-item-list">First</h3>
+                  <h3 className="footer-title-item">First</h3>
                 </li>
                 <li>
-                  <p className="footer-p-item-list" tabindex="0">First page</p>
+                  <p className="footer-subtitle-item" tabindex="0">First page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Second page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Second page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Third page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Third page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Fourth page</p>
-                </li>
-              </ul>
-            </li>
-            <li className="pages-item">
-              <ul>
-                <li>
-                  <h3 className="footer-header-item-list">Second</h3>
-                </li>
-                <li>
-                  <p className="footer-p-item-list" tabindex="0">First page</p>
-                </li>
-                <li>
-                  <p className="footer-p-item-list2" tabindex="0">Second page</p>
-                </li>
-                <li>
-                  <p className="footer-p-item-list2" tabindex="0">Third page</p>
-                </li>
-                <li>
-                  <p className="footer-p-item-list2" tabindex="0">Fourth page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Fourth page</p>
                 </li>
               </ul>
             </li>
             <li className="pages-item">
               <ul>
                 <li>
-                  <h3 className="footer-header-item-list">Third</h3>
+                  <h3 className="footer-title-item">Second</h3>
                 </li>
                 <li>
-                  <p className="footer-p-item-list" tabindex="0">First page</p>
+                  <p className="footer-subtitle-item" tabindex="0">First page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Second page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Second page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Third page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Third page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Fourth page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Fourth page</p>
                 </li>
               </ul>
             </li>
             <li className="pages-item">
               <ul>
                 <li>
-                  <h3 className="footer-header-item-list">Foutrh</h3>
+                  <h3 className="footer-title-item">Third</h3>
                 </li>
                 <li>
-                  <p className="footer-p-item-list" tabindex="0">First page</p>
+                  <p className="footer-subtitle-item" tabindex="0">First page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Second page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Second page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Third page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Third page</p>
                 </li>
                 <li>
-                  <p className="footer-p-item-list2" tabindex="0">Fourth page</p>
+                  <p className="footer-subtitle-item2" tabindex="0">Fourth page</p>
+                </li>
+              </ul>
+            </li>
+            <li className="pages-item">
+              <ul>
+                <li>
+                  <h3 className="footer-title-item">Foutrh</h3>
+                </li>
+                <li>
+                  <p className="footer-subtitle-item" tabindex="0">First page</p>
+                </li>
+                <li>
+                  <p className="footer-subtitle-item2" tabindex="0">Second page</p>
+                </li>
+                <li>
+                  <p className="footer-subtitle-item2" tabindex="0">Third page</p>
+                </li>
+                <li>
+                  <p className="footer-subtitle-item2" tabindex="0">Fourth page</p>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
-        <div className="footer-container-list">
+        <div className="footer-wrapper-list">
           <ul className="footer-list">
             <li className="footer-item">
               <a href="#" className="link-color">© Copyrights 2021</a>

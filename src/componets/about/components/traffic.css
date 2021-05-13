@@ -5,7 +5,7 @@
     border:1px solid transparent;
     margin-top: 119px;
 }
-.traffic-container{
+.traffic-wrapper{
     border:1px solid transparent;
     max-width: 470px;
     margin-top: 45px;
@@ -14,7 +14,7 @@
     border: 1px solid transparent;
     margin-left:45px;
 }
-.heading-traffic{
+.traffic-title{
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -24,7 +24,7 @@
     max-width: 320px;
     word-break: break-word;
 }
-.p-traffic{
+.traffic-text{
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.5px;
@@ -72,7 +72,7 @@
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-    .traffic-container{
+    .traffic-wrapper{
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -87,7 +87,7 @@
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    .traffic-container{
+    .traffic-wrapper{
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -105,7 +105,7 @@
 
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    .traffic-container{
+    .traffic-wrapper{
         display: flex;
         align-items: center;
         flex-direction: column;

@@ -5,7 +5,7 @@
     background-image: url('../../../assets/img/backgroundsearcher.svg');
     border:1px solid transparent;
 }
-.searcher-container{
+.searcher-wrapper{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,7 +13,7 @@
     background-image: url('../../../assets/img/searcher-background.png');
     border:1px solid transparent;
 }
-.heading-searcher{
+.searcher-title{
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -25,7 +25,7 @@
     max-width: 630px;
     word-break: break-word;
 }
-.p-searcher{
+.searcher-desc{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -93,7 +93,7 @@
         background:#fc7500;
     }
 }
-.p2-searcher{
+.searcher-desc2{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.2px;
@@ -104,7 +104,7 @@
     word-break: break-word;
 }
 @media (min-width: 768px) and (max-width: 1024px){
-    .searcher-container{
+    .searcher-wrapper{
         max-width:640px;
         height:324px;
         background-image: url('../../../assets/img/searcher-background.png');
@@ -112,7 +112,13 @@
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    .heading-searcher{
+    .searcher-wrapper{
+        max-width:497px;
+        height:324px;
+        background-image: url('../../../assets/img/searcher-background.png');
+        background-repeat: no-repeat;
+    }
+    .searcher-title{
         font-style: normal;
         font-weight: 500;
         font-size: 36px;
@@ -121,19 +127,13 @@
         color: #F2994A;
         margin-top: 25px;
     }
-    .searcher-container{
-        max-width:497px;
-        height:324px;
-        background-image: url('../../../assets/img/searcher-background.png');
-        background-repeat: no-repeat;
-    }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    .searcher-container{
+    .searcher-wrapper{
         max-width:340px;
         background-image: url('../../../assets/img/searcher-background.png');
     }
-    .heading-searcher{
+    .searcher-title{
         font-style: normal;
         font-weight: 500;
         font-size: 36px;

@@ -1,4 +1,4 @@
-.container-logos-list{
+.brandicons-wrapper-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -6,11 +6,11 @@
     max-width:1170px;
     margin: 91px auto; 
 }
-.container-logos-item{
+.brandicons-item{
     display:inline;
 }
 @media (min-width: 320px) and (max-width: 485px) {
-    .container-logos-list{
+    .brandicons-wrapper-list{
         margin-left: -34px;
     }
 }

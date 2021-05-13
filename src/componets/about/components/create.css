@@ -5,7 +5,7 @@
     border:1px solid transparent;
     margin-top:115px;
 }
-.heading-create{
+.create-title{
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -16,7 +16,7 @@
     max-width:750px;
     word-break: break-word;
 }
-.btn-getStart{
+.getStart-btn{
     border:1px solid #F2994A;
     width:164px;
     padding:14px 0;
@@ -36,7 +36,7 @@
     cursor: pointer;
     z-index: 1;
 }
-.btn-getStart:hover{
+.getStart-btn:hover{
     border: 1px solid #fc7500;
     background:#fc7500;
     animation: smoothly-color7 0.3s ease-in-out;

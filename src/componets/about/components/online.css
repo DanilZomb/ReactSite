@@ -6,12 +6,12 @@
     border:1px solid transparent;
     margin-top: 150px;
 }
-.online-container{
+.online-wrapper{
     border:1px solid transparent;
     max-width: 1500px;
     margin-top: 100px;
 }
-.online-container-list{
+.online-wrapper-list{
     border:1px solid transparent;
     margin-top: 100px;
 }
@@ -35,7 +35,7 @@ content: url(../../../assets/icons/online-icon1.svg);
 .online-item.icn2::before{
     content: url(../../../assets/icons/online-icon3.png);
 }
-.heading-online{
+.online-title{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -46,7 +46,7 @@ content: url(../../../assets/icons/online-icon1.svg);
     max-width: 430px;
     word-break: break-word;
 }
-.p-online{
+.online-desc{
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.2px;
@@ -56,7 +56,7 @@ content: url(../../../assets/icons/online-icon1.svg);
     max-width: 420px;
     word-break: break-word;
 }
-.online-heading-item{
+.online-title-item{
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -70,10 +70,10 @@ content: url(../../../assets/icons/online-icon1.svg);
     word-break: break-word;
     
 }
-.online-heading-item:hover{
+.online-title-item:hover{
     color:#0d6efd;
 }
-.online-p-item{
+.online-desc-item{
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.2px;
@@ -91,11 +91,9 @@ content: url(../../../assets/icons/online-icon1.svg);
         border:1px solid transparent;
         margin-top: 150px;
     }
-    
-   
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    .online-container{
+    .online-wrapper{
         border:1px solid transparent;
         width: 440px;
         margin-top: 80px;
@@ -110,23 +108,12 @@ content: url(../../../assets/icons/online-icon1.svg);
     .online{
     margin-left: 0px;
     }
-    .main-container-online{
-        display: flex;
-        text-align: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between;
-        border: 1px solid transparent;
-        width: 1040px;
-    }
-   
-    .online-container{
+    .online-wrapper{
         border:1px solid transparent;
         max-width: 300px;
         margin-top: 100px;
         text-align: center;
     }
-  
     .online-list{
         display: flex;
         flex-wrap: wrap;
@@ -145,7 +132,6 @@ content: url(../../../assets/icons/online-icon1.svg);
         margin-left: auto;
         border:1px solid transparent;
     }
-  
     .onlineImg{
         width:90%;
     }

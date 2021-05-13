@@ -5,15 +5,16 @@
 ul{
     list-style-type:none;
 }
+
+
+
+
+
 .background1{
     background-image: url(../../assets/img/BackgroundMenu.png);
     background-repeat: no-repeat;
     border:1px solid #6a17a1;
 }
-
-
-
-
 .top{
     border:1px solid transparent;
     margin-left:150px;

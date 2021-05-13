@@ -5,40 +5,34 @@ import "./reasons.css";
 
 function Reasons() {
   return (
-    <section className="top">
-      <div className="reasons">
-          <div className="reasons-inf-container">
-            <h2 className="heading">
+      <section className="reasons">
+          <div className="reasons-inform-wrapper">
+            <h2 className="reason-title">
               Many reasons to get up and start to get back in the
               business
             </h2>
-            <p className="reasons-p">
+            <p className="reasons-subtitle">
               The harder you work for something, the greater you’ll feel
               when you achieve it.
             </p>
-            <div className="info-btns">
-              <button className="lern-more-btn">Learn more</button>
+            <div className="reasons-buttons-wrapper">
+              <button className="learnmore-btn">Learn more</button>
               <button className="demo-btn">Demo</button>
             </div>
-            <div className="video-container">
+            <div className="reasons-video-wrapper">
               <a href ="#">
               <img src={VideoPlayer} alt="video-player" className="videoImg" width ="140px" height="80px"/>
               </a>
-              <div className="video-texts-container">
-                <div className="video-text-container1">
-                  <p className="reasons-p2">
+              <div className="reasons-video-text-wrapper">
+                  <p className="reasons-video-text">
                     The harder you work for something, the greater
                     you’ll feel when you achieve it.
                   </p>
-                </div>
-                <div className="video-text-container2">
-                  <p className="reasons-p3">Watch preview</p>
-                </div>
+                  <a className="reasons-video-text2">Watch preview</a>
               </div>
             </div>
           </div>
-        <img src={Human} alt="human" className="humanImg" width="51%" />
-      </div>
+        <img src={Human} alt="human" className="humanImg"  width="590px" height="580px"/>
     </section>
   );
 }

@@ -6,14 +6,13 @@
     border:1px solid transparent;
     margin-top: 50px;
 }
-.invest-container{
+.invest-wrapper{
     border: 1px solid transparent;
     max-width: 470px;
     margin-top: 45px;
     margin-left: auto;
-    
 }
-.heading-invest{
+.invest-title{
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -23,7 +22,7 @@
     max-width: 390px;
     word-break: break-word;
 }
-.invest-p{
+.invest-desc{
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.5px;
@@ -67,7 +66,7 @@
         background:#fc7500;
     }
 }
-.invest-img-container{
+.invest-img-wrapper{
     border:1px solid transparent;  
     background-image: url('../../../assets/icons/Invest-map-pict-background.svg');  
     background-repeat: no-repeat;
@@ -75,12 +74,12 @@
     margin-left: auto;
 }
 .investImg{ 
-border:1px solid transparent;  
-margin-left: 45px;
+   border:1px solid transparent;  
+   margin-left: 45px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .invest-container{
+    .invest-wrapper{
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -88,8 +87,7 @@ margin-left: 45px;
         max-width: 470px;
         margin-top: 45px;
         text-align: center;
-        margin-right: auto;
-        
+        margin-right: auto;  
     }
     .investImg{
         margin-right: auto;
@@ -97,7 +95,7 @@ margin-left: 45px;
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    .invest-container{
+    .invest-wrapper{
         border: 1px solid transparent;
         max-width: 470px;
         margin-top: 45px;
@@ -111,7 +109,7 @@ margin-left: 45px;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    .invest-container{
+    .invest-wrapper{
         border: 1px solid transparent;
         max-width: 470px;
         margin-top: 45px;

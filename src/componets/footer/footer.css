@@ -4,19 +4,19 @@
     background-image: url("../../assets/img/background.svg");
    
 }
-.footer-header-container{
+.footer-wrapper{
     border:1px solid transparent;
     max-width:992px;    
     margin: 0 auto;
 }
-.footer-header-container2{
+.footer-header-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     border: 1px solid transparent;
     max-width: 992px;
 }
-.pages-container-list{
+.pages-wrapper-list{
     border:1px solid transparent;
     max-width:992px;
     margin-top: 94px;
@@ -25,7 +25,7 @@
    display: flex;
    justify-content: space-between;
 }
-.heading-footer{
+.footer-title{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -40,7 +40,7 @@
     display: inline;
     margin: 0 7px;
 }
-.footer-header-item-list{
+.footer-title-item{
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -52,7 +52,7 @@
     word-break: break-word;  
 }
 
-.footer-p-item-list{
+.footer-subtitle-item{
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -65,10 +65,10 @@
     max-width: 100px;
     word-break: break-word;
 }
-.footer-p-item-list:hover{
+.footer-subtitle-item:hover{
     color:blue;
 }
-.footer-p-item-list2{
+.footer-subtitle-item2{
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -81,7 +81,7 @@
     max-width: 100px;
     word-break: break-word;
 }
-.footer-p-item-list2:hover{
+.footer-subtitle-item2:hover{
     color:blue;
 }
 .footer-list{
@@ -92,6 +92,7 @@
     border: 1px solid transparent;
     max-width: 500px;
     margin:120px auto;
+    word-break: break-word;
 }
 .link-color{
     color: #FFFFFF;
@@ -104,7 +105,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .footer-header-container2{
+    .footer-header-wrapper{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -117,7 +118,7 @@
      }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    .footer-header-container2{
+    .footer-header-wrapper{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -138,7 +139,7 @@
 
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    .footer-header-container2{
+    .footer-header-wrapper{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -151,12 +152,12 @@
         display: flex;
         justify-content: space-around;
      }
-    .icons-container{
+    .icons-wrapper{
         border:1px solid transparent;
         margin-top: 25px;
         margin-left: -33px;
     }
-    .pages-container-list{
+    .pages-wrapper-list{
         display: flex;
         justify-content: center;
         border:1px solid transparent;
@@ -164,7 +165,7 @@
         margin-top: 59px;
         margin-left: -49px;
     }
-    .heading-footer{
+    .footer-title{
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
@@ -174,9 +175,8 @@
         border: 1px solid transparent;
         max-width: 190px;
         word-break: break-word;    
-       
     }
-    .footer-header-item-list{
+    .footer-title-item{
         font-style: normal;
         font-weight: bold;
         font-size: 12px;
@@ -184,7 +184,7 @@
         letter-spacing: 0.2px;
         color: #FFFFFF;
     }
-    .footer-p-item-list{
+    .footer-subtitle-item{
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
@@ -194,7 +194,7 @@
         margin-top: 19px;
         cursor: pointer;
     }
-    .footer-p-item-list2{
+    .footer-subtitle-item2{
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
@@ -204,13 +204,19 @@
         margin-top: 9px;
         cursor: pointer;
     }
+    .footer-wrapper-list{
+        display: flex;
+        justify-content: center;
+        border: 1px solid transparent;
+    }
     .footer-list{
         display: flex;
+        justify-content: center;
         text-align: center;
         flex-direction: column;
         border: 1px solid transparent;
-        max-width: 400px;
         margin:65px 30px;
+        padding: 10px;
     }
     .footer-item{
         margin-top: 15px;

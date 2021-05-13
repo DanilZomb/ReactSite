@@ -6,7 +6,7 @@
     border: 1px solid transparent;
     margin-top: 120px;
 }
-.heading-ways{
+.ways-title{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -18,7 +18,7 @@
     max-width: 715px;
     word-break: break-word;
 }
-.ways-p{
+.ways-desc{
     font-size: 15px;
     line-height: 20px;
     text-align: center;
@@ -44,7 +44,7 @@
     flex-direction: column;
     border:1px solid transparent;
 }
-.way-heading-item{
+.way-title-item{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -54,7 +54,7 @@
     color: #99EFD0;  
     margin: 0 100px;  
 }
-.way-p-item{
+.way-desc-item{
     margin-top: 13px;
     font-size: 15px;
     line-height: 20px;
@@ -65,7 +65,7 @@
     word-break: break-word;
     border:1px solid transparent;
 }
-.way-p-item2{
+.way-desc-item2{
     margin-top: 13px;
     font-size: 15px;
     line-height: 20px;
@@ -84,7 +84,6 @@
         border:1px solid transparent;
         margin-top: -19px;
     }
-    
    .ways-item{
      margin: 15px 0;
    }

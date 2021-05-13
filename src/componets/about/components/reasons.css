@@ -1,17 +1,17 @@
 .reasons{
     display: flex; 
+    justify-content: flex-end;
     flex-wrap: wrap;
     align-items: center;
     border:1px solid transparent;
-    margin-top: 105px; 
+    margin-top: 55px; 
     max-width:2550px;
 }
-.reasons-inf-container{
+.reasons-inform-wrapper{
     border:1px solid transparent;  
     max-width: 540px;  
-
 }
-.heading{
+.reason-title{
     font-style: normal;
     font-weight: bold;
     font-size: 44px;
@@ -20,7 +20,7 @@
     word-break: break-word;
     border: 1px solid transparent;
 }
-.reasons-p{
+.reasons-subtitle{
     border:1px solid transparent;
     font-size: 18px;
     line-height: 22px;
@@ -30,11 +30,11 @@
     max-width: 440px;
 }
 
-.info-btns{
+.reasons-buttons-wrapper{
     border:1px solid transparent;
     margin-top: 40px;
 }
-.lern-more-btn{
+.learnmore-btn{
     border: 1px solid #F2994A;
     width:156px;
     padding:13px 0;
@@ -52,7 +52,7 @@
     word-break: break-word;
     cursor:pointer;
 }
-.lern-more-btn:hover{
+.learnmore-btn:hover{
     border: 1px solid #f88825;
     background:#f88825;
     animation: smoothly-color2 0.3s ease-in-out;
@@ -102,7 +102,7 @@
         color:#fc7500;
     }
 }
-.reasons-p2{
+.reasons-video-text{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -112,7 +112,7 @@
     word-break: break-word;
     max-width: 350px;
 }
-.reasons-p3{
+.reasons-video-text2{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -121,26 +121,19 @@
     word-break: break-word;
     border:1px solid transparent;
     margin-top: -15px;
+    text-decoration: none;
+    cursor: pointer;
 }
-.video-container{
+.reasons-video-wrapper{
     display: flex;    
     border:1px solid transparent;
     margin-top: 60px;
  }
- .video-texts-container{
+ .reasons-video-text-wrapper{
      display: flex;
      flex-wrap: wrap;
      margin-left: 20px;
      border:1px solid transparent;
- }
- .video-text-container1{
-     border:1px solid transparent;
-     max-width:380px;
- }
- .video-text-container2{
-     border:1px solid transparent;
-     max-width:380px;
-     margin-top:6px;
  }
  .videoImg{
      cursor:pointer;
@@ -153,8 +146,9 @@
   }
 .humanImg{
     border:1px solid transparent;
+    width:590px;
+    height:580px;
     cursor: pointer;
-    width: 51%;
 }
 .humanImg:hover{
     -ms-transform: skewX(1deg);
@@ -173,11 +167,38 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .reasons{
+        display: flex; 
+        flex-wrap: wrap;
+       justify-content: center;
+        border:1px solid transparent;
+        margin-top: 105px; 
+        max-width:2550px;
+    }
+    .reasons-inform-wrapper{
+        text-align: center;
+    }
+    .reasons-video-wrapper{
+        display: flex;  
+        flex-wrap: wrap; 
+        align-items: center; 
+        flex-direction: column;
+        border:1px solid transparent;
+        margin-top: 35px;
+     }
+     .reasons-video-text-wrapper{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        border:1px solid transparent;
+        text-align: center;
+        margin-top: 10px;
+    }
     .humanImg{
         border:1px solid transparent;
         cursor: pointer;
-        width: 100%;
-        margin-top: 60px;
+        width: 60%;
+        margin-top: 10px;
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -193,11 +214,10 @@
         margin-top: 105px; 
         max-width:2550px;
     }
-    .reasons-inf-container{
+    .reasons-inform-wrapper{
         text-align: center;
-        margin-left: -150px;
     }
-    .video-container{
+    .reasons-video-wrapper{
         display: flex;  
         flex-wrap: wrap; 
         align-items: center; 
@@ -205,7 +225,7 @@
         border:1px solid transparent;
         margin-top: 35px;
      }
-     .video-texts-container{
+     .reasons-video-text-wrapper{
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -218,16 +238,10 @@
         margin-left:auto;
         margin-top:51px;
     }
-   
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    .top{
-        border:1px solid transparent;
-        margin-right:0px; 
-    }
-    .reasons-inf-container{
+    .reasons-inform-wrapper{
        text-align: center;
-       margin-left: -150px;
     }
     .demo-btn{
         margin-left: 3px;
@@ -249,7 +263,7 @@
         color: #F2994A;
         cursor:pointer;
     }
-    .video-container{
+    .reasons-video-wrapper{
         display: flex;  
         flex-wrap: wrap; 
         align-items: center; 
@@ -257,7 +271,7 @@
         border:1px solid transparent;
         margin-top: 35px;
      }
-     .video-texts-container{
+     .reasons-video-text-wrapper{
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -266,12 +280,14 @@
         margin-top: 10px;
     }
     .videoImg{
-        height:51%;
+        cursor:pointer;
+        width:140px;
+        height:80px;
     }
     .humanImg{
-        width: 210%;
+        width: 100%;
         margin-left:auto;
-        margin-top:25px;
+        margin-top:-55px;
         margin-left: -105px;
     }
   

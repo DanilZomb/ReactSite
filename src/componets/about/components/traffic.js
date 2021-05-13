@@ -5,11 +5,11 @@ import "./traffic.css";
 function Traffic() {
   return(
     <section className="traffic">
-      <div className="traffic-container">
-        <h2 className="heading-traffic">
+      <div className="traffic-wrapper">
+        <h2 className="traffic-title">
           Increase your business <span class="text-color">traffic</span>
         </h2>
-        <p className="p-traffic">
+        <p className="traffic-text">
           We are committed to processing the information in order to 
           contact you and talk about your project.
         </p>

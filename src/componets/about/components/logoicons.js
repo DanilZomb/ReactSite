@@ -9,40 +9,40 @@ import MarkIcon6 from "../../../assets/icons/mark-icon6.svg";
 
 function Logoicons() {
     return (
-        <nav className="container-logos-icons">
-            <ul className="container-logos-list">
-                <li className="container-logos-item">
+        <selector>
+            <ul className="brandicons-wrapper-list">
+                <li className="brandicons-item">
                     <a href="#">
                         <img src={MarkIcon} alt="icon"/>
                     </a>
                 </li>
-                <li className="container-logos-item">
+                <li className="brandicons-item">
                     <a href="#">
                         <img src={MarkIcon2} alt="icon"/>
                     </a>
                 </li>
-                <li className="container-logos-item">
+                <li className="brandicons-item">
                     <a href="#">
                         <img src={MarkIcon3} alt="icon"/>
                     </a>
                 </li>
-                <li className="container-logos-item">
+                <li className="brandicons-item">
                     <a href="#">
                         <img src={MarkIcon4} alt="icon"/>
                     </a>
                 </li>
-                <li className="container-logos-item">
+                <li className="brandicons-item">
                     <a href="#">
                         <img src={MarkIcon5} alt="icon"/>
                     </a>
                 </li>
-                <li className="container-logos-item">
+                <li className="brandicons-item">
                     <a href="#">
                         <img src={MarkIcon6} alt="icon"/>
                     </a>
                 </li>
             </ul>
-        </nav>
+        </selector>
     );
 }
 
