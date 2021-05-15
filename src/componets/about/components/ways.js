@@ -12,7 +12,6 @@ function Ways() {
           Fully customizable and neatly organized components
           will help you work faster without limiting creative freedom.
         </p>
-      <div className="ways-wrapper">
           <ul className="ways-list">
             <li className="ways-item">
               <h3 className="way-title-item">100+</h3>
@@ -36,7 +35,6 @@ function Ways() {
               </p>
             </li>
           </ul>
-        </div>
       </section>
   );
 }

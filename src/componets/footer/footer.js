@@ -33,78 +33,78 @@ function Footer() {
         <div className="pages-wrapper-list">
           <ul className="pages-list">
             <li className="pages-item">
-              <ul>
+              <ul className="pages-links-list">
                 <li>
                   <h3 className="footer-title-item">First</h3>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item" tabindex="0">First page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item">First page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Second page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Second page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Third page</p>
+                <li className="pages-link-item">
+                  <a  href="#" className="footer-subtitle-item2">Third page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Fourth page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Fourth page</a>
                 </li>
               </ul>
             </li>
             <li className="pages-item">
-              <ul>
+              <ul className="pages-links-list">
                 <li>
                   <h3 className="footer-title-item">Second</h3>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item" tabindex="0">First page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item">First page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Second page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Second page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Third page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Third page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Fourth page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Fourth page</a>
                 </li>
               </ul>
             </li>
             <li className="pages-item">
-              <ul>
+              <ul className="pages-links-list">
                 <li>
                   <h3 className="footer-title-item">Third</h3>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item" tabindex="0">First page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item">First page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Second page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Second page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Third page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Third page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Fourth page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Fourth page</a>
                 </li>
               </ul>
             </li>
             <li className="pages-item">
-              <ul>
+              <ul className="pages-links-list">
                 <li>
                   <h3 className="footer-title-item">Foutrh</h3>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item" tabindex="0">First page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item">First page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Second page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Second page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Third page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Third page</a>
                 </li>
-                <li>
-                  <p className="footer-subtitle-item2" tabindex="0">Fourth page</p>
+                <li className="pages-link-item">
+                  <a href="#" className="footer-subtitle-item2">Fourth page</a>
                 </li>
               </ul>
             </li>

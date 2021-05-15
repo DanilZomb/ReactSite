@@ -15,7 +15,7 @@ function Traffic() {
         </p>
         <button className="traffic-btn">Learn more</button>
       </div>
-      <img src={GraficTraffic} alt="grafic-traffic" className="graficImg" />
+      <img src={GraficTraffic} alt="grafic-traffic" className="graficImg" width="441" height="400"/>
     </section>
   );
 }

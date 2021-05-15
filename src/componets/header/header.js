@@ -5,74 +5,74 @@ import Logoicons from "../about/components/logoicons";
 import Choice from "../about/components/choice";
 import LogoIcon from "../../assets/icons/logo-icon.svg";
 
-
 function Header() {
   return (
     <header>
-      <div className="top">
-        <div className="header">
-          <div className="container-fluid">
-            <nav className="navbar navbar-expand-lg navbar-light">
-              <a href="#">
-                <img src={LogoIcon} alt="logo-icon" className="logoImg" />
-              </a>
-              <button
-                className="navbar-toggler "
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <div className="header-menu">
-                  <ul className="header-menu-list me-auto mb-2 mb-lg-0">
-                    <li className="header-menu-item">
-                      <a href="#" class="a1">
-                        About
-                      </a>
-                    </li>
-                    <li className="header-menu-item">
-                      <a href="#" class="a2">
-                        Gallery
-                      </a>
-                    </li>
-                    <li className="header-menu-item">
-                      <a href="#" class="a3">
-                        Pricing
-                      </a>
-                    </li>
-                    <li className="header-menu-item">
-                      <a href="#" class="a4">
-                        FAQ
-                      </a>
-                    </li>
-                    <li className="header-menu-item">
-                      <a href="#" class="a5">
-                        Benefits
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="sign-btns">
-                  <ul className="sign-btns-list">
-                    <li className="sign-btns-item">
-                      <button type ="button" className="sign-in">Sign in</button>
-                    </li>
-                    <li className="sign-btns-item">
-                      <button type ="button" className="sign-up">Sign up</button>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+      <div className="background1">
+        <div class="header-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src={LogoIcon} alt="logo-icon" className="logoImg" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Gallery
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Pricing
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Faq
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Benefits
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav navbar-btn-list">
+                <li class="navbar-btn-item">
+                  <button type="button" class="sign-in-btn">
+                    Sign in
+                  </button>
+                </li>
+                <li class="navbar-btn-item">
+                  <button type="button" class="sign-up-btn">
+                    Sign up
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
+        </nav>
         </div>
+        <Reasons />
       </div>
-      <Reasons />
       <div className="background2">
         <Logoicons />
         <Choice />

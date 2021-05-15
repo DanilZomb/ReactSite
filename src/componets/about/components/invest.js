@@ -17,7 +17,7 @@ function Invest() {
         <button className="invest-btn">Learn more</button>
       </div>
       <div className="invest-img-wrapper">
-        <img src={BusinessPrice} alt="business-price" className="investImg" />
+        <img src={BusinessPrice} alt="business-price" className="investImg" width="403" height="414"/>
       </div>
     </section>
   );

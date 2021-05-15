@@ -10,7 +10,7 @@ function Create() {
         framework
       </h2>
       <button className="getStart-btn">Get started</button>
-      <img src={CreateCircle} alt="create-circle" className="circleImg" />
+      <img src={CreateCircle} alt="create-circle" className="circleImg" width="1203" height="492"/>
     </section>
   );
 }
