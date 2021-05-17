@@ -166,7 +166,21 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+
+  @media(min-width:1440px) and (max-width:2560px){
+    .reasons{
+        display: flex; 
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        border:1px solid transparent;
+        margin-top: 55px; 
+        max-width:2550px;
+        margin-left: 150px;
+    }
+}  
+
+@media (min-width: 768px) and (max-width: 1270px) {
     .reasons{
         display: flex; 
         flex-wrap: wrap;
