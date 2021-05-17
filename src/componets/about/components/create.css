@@ -62,13 +62,13 @@
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .circleImg{
-        margin-top: -90px;
+        margin-top: -210px;
         width: 130%;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     .circleImg{
-        margin-top: -50px;
+        margin-top: -251px;
         width: 130%;
     }
 }

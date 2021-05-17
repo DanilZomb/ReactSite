@@ -2,11 +2,13 @@
     margin:0;
     padding:0;
 }
-ul{
-    list-style-type:none;
-}
 .background1{
+    background:#040D3E;
     background-image: url(./assets/img/BackgroundMenu.png);
     background-repeat: no-repeat;
-    border:1px solid #6a17a1;
 }
+.background2{
+    border:1px solid transparent;
+    background:#040D3E;
+}
+

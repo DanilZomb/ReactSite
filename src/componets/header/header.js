@@ -8,7 +8,6 @@ import LogoIcon from "../../assets/icons/logo-icon.svg";
 function Header() {
   return (
     <header>
-      <div className="background1">
         <div class="header-wrapper">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
@@ -72,11 +71,8 @@ function Header() {
         </nav>
         </div>
         <Reasons />
-      </div>
-      <div className="background2">
         <Logoicons />
         <Choice />
-      </div>
     </header>
   );
 }

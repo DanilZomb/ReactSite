@@ -93,15 +93,39 @@ content: url(../../../assets/icons/online-icon1.svg);
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    .online-wrapper{
-        border:1px solid transparent;
-        width: 440px;
-        margin-top: 80px;
-        text-align: center;
-    }
-    .onlineImg{
-        width:81%;
-    }
+    .online{
+        margin-left: 0px;
+        }
+        .online-wrapper{
+            border:1px solid transparent;
+            max-width: 300px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .online-wrapper-list{
+            border:1px solid transparent;
+            margin-top: 45px;
+        }
+        .online-list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border:1px solid transparent;
+            max-width: 480px;
+            text-align: center;
+        }
+        .online-item{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 60px;
+            border:1px solid transparent;
+        }
+        .onlineImg{
+            width:90%;
+        }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -111,15 +135,18 @@ content: url(../../../assets/icons/online-icon1.svg);
     .online-wrapper{
         border:1px solid transparent;
         max-width: 300px;
-        margin-top: 100px;
+        margin-top: 30px;
         text-align: center;
+    }
+    .online-wrapper-list{
+        border:1px solid transparent;
+        margin-top: 45px;
     }
     .online-list{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         border:1px solid transparent;
-        margin-top: -39px;
         max-width: 480px;
         text-align: center;
     }
@@ -129,27 +156,13 @@ content: url(../../../assets/icons/online-icon1.svg);
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: auto;
+        margin-left: 60px;
         border:1px solid transparent;
     }
     .onlineImg{
         width:90%;
     }
 }
-@media (min-width: 481px) and (max-width: 767px) {
-    .online-list{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        border:1px solid transparent;
-        margin-top: -39px;
-        max-width: 480px;
-        text-align: center;
-    }
-    .online-item{
-        margin-left: 125px;
-    }
-}
+
 
 
