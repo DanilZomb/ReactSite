@@ -3,7 +3,6 @@
     align-items: center;
     flex-direction: column;
     margin-top:95px;
-    border:1px solid transparent;
 }
 
 .choice-title{
@@ -13,10 +12,8 @@
     line-height: 50px;
     text-align: center;
     color: #99EFD0;
-    border:1px solid transparent;
     max-width: 1100px;
     word-break: break-word;
-    border:1px solid transparent;
 }
 .choice-subtitle{
     font-size: 16px;
@@ -24,7 +21,6 @@
     text-align: center;
     color: #8476AA;  
     margin-top: 13px; 
-    border:1px solid transparent;
     word-break: break-word;
     max-width: 700px;
 }
@@ -32,7 +28,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border:1px solid transparent;
     max-width:1100px;
     margin:0 auto;
     list-style-type: none;
@@ -82,7 +77,6 @@
     line-height: 22px;
     color: #99EFD0;  
     cursor: pointer;  
-    border: 1px solid transparent;
     max-width:230px;
     word-break: break-word;
     text-decoration: none;
@@ -95,7 +89,6 @@
     line-height: 22px;
     color: #8476AA;    
     margin-top: 10px;
-    border:1px solid transparent;
     max-width:250px;
     word-break: break-word;
 }
@@ -104,9 +97,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border:1px solid transparent;
-        max-width:997px;
-        margin-left:65px;
+        max-width:1000px;
         list-style-type: none;
     }
 }
@@ -115,7 +106,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border:1px solid transparent;
         max-width:997px;
         margin-left:65px;
         list-style-type: none;
@@ -126,7 +116,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border:1px solid transparent;
         max-width:997px;
         margin-left:51px;
         list-style-type: none;

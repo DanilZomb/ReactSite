@@ -13,17 +13,17 @@ function Footer() {
           <div className="icons-wrapper">
             <ul className="icons-list">
               <li className="icons-item">
-                <a href="#">
+                <a href="/#">
                   <img src={Google} alt="google"/>
                 </a>
               </li>
               <li className="icons-item">
-                <a href="#">
+                <a href="/#">
                   <img src={Twitter} alt="twitter" />
                 </a>
               </li>
               <li className="icons-item">
-                <a href="#">
+                <a href="/#">
                   <img src={Facebook} alt="facebook" />
                 </a>
               </li>
@@ -38,16 +38,16 @@ function Footer() {
                   <h3 className="footer-title-item">First</h3>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item">First page</a>
+                  <a href="/#" className="footer-subtitle-item">First page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Second page</a>
+                  <a href="/#" className="footer-subtitle-item2">Second page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a  href="#" className="footer-subtitle-item2">Third page</a>
+                  <a  href="/#" className="footer-subtitle-item2">Third page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Fourth page</a>
+                  <a href="/#" className="footer-subtitle-item2">Fourth page</a>
                 </li>
               </ul>
             </li>
@@ -57,16 +57,16 @@ function Footer() {
                   <h3 className="footer-title-item">Second</h3>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item">First page</a>
+                  <a href="/#" className="footer-subtitle-item">First page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Second page</a>
+                  <a href="/#" className="footer-subtitle-item2">Second page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Third page</a>
+                  <a href="/#" className="footer-subtitle-item2">Third page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Fourth page</a>
+                  <a href="/#" className="footer-subtitle-item2">Fourth page</a>
                 </li>
               </ul>
             </li>
@@ -76,16 +76,16 @@ function Footer() {
                   <h3 className="footer-title-item">Third</h3>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item">First page</a>
+                  <a href="/#" className="footer-subtitle-item">First page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Second page</a>
+                  <a href="/#" className="footer-subtitle-item2">Second page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Third page</a>
+                  <a href="/#" className="footer-subtitle-item2">Third page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Fourth page</a>
+                  <a href="/#" className="footer-subtitle-item2">Fourth page</a>
                 </li>
               </ul>
             </li>
@@ -95,16 +95,16 @@ function Footer() {
                   <h3 className="footer-title-item">Foutrh</h3>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item">First page</a>
+                  <a href="/#" className="footer-subtitle-item">First page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Second page</a>
+                  <a href="/#" className="footer-subtitle-item2">Second page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Third page</a>
+                  <a href="/#" className="footer-subtitle-item2">Third page</a>
                 </li>
                 <li className="pages-link-item">
-                  <a href="#" className="footer-subtitle-item2">Fourth page</a>
+                  <a href="/#" className="footer-subtitle-item2">Fourth page</a>
                 </li>
               </ul>
             </li>
@@ -113,13 +113,13 @@ function Footer() {
         <div className="footer-wrapper-list">
           <ul className="footer-list">
             <li className="footer-item">
-              <a href="#" className="link-color">© Copyrights 2021</a>
+              <a href="/#" className="link-color">© Copyrights 2021</a>
             </li>
             <li className="footer-item">
-              <a href="#" className="link-color">Privacy policy</a>
+              <a href="/#" className="link-color">Privacy policy</a>
             </li>
             <li class="footer-item">
-              <a href="#" className="link-color">Terms of service</a>
+              <a href="/#" className="link-color">Terms of service</a>
             </li>
           </ul>
         </div>

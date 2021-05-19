@@ -20,7 +20,7 @@ function Reasons() {
               <button className="demo-btn">Demo</button>
             </div>
             <div className="reasons-video-wrapper">
-              <a href ="#">
+              <a href ="/#">
               <img src={VideoPlayer} alt="video-player" className="videoImg" width ="140px" height="80px"/>
               </a>
               <div className="reasons-video-text-wrapper">
@@ -28,7 +28,7 @@ function Reasons() {
                     The harder you work for something, the greater
                     you’ll feel when you achieve it.
                   </p>
-                  <a className="reasons-video-text2">Watch preview</a>
+                  <a className="reasons-video-text2" href="/#">Watch preview</a>
               </div>
             </div>
           </div>

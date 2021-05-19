@@ -11,7 +11,7 @@ function Choice() {
         </p>
           <ul className="choice-list">
             <li className="choice-item icn1">
-              <a className="choice-title-item" tabindex="0">Ecstatic elegance</a>
+              <a className="choice-title-item" href="/#" tabindex="0">Ecstatic elegance</a>
               <p className="choice-subtitle-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -19,7 +19,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn2">
-              <a className="choice-title-item" tabindex="0">Folly words widow</a>
+              <a className="choice-title-item" href="/#" tabindex="0">Folly words widow</a>
               <p className="choice-subtitle-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -27,7 +27,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn3">
-              <a className="choice-title-item" tabindex="0">Possible procured trifling</a>
+              <a className="choice-title-item" href="/#" tabindex="0">Possible procured trifling</a>
               <p className="choice-subtitle-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -35,7 +35,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn4">
-              <a className="choice-title-item" tabindex="0">Open game</a>
+              <a className="choice-title-item" href="/#" tabindex="0">Open game</a>
               <p className="choice-subtitle-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -43,7 +43,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn5">
-              <a className="choice-title-item" tabindex="0">Endeavor</a>
+              <a className="choice-title-item" href="/#" tabindex="0">Endeavor</a>
               <p className="choice-subtitle-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />
@@ -51,7 +51,7 @@ function Choice() {
               </p>
             </li>
             <li className="choice-item icn6">
-              <a className="choice-title-item" tabindex="0">Comfort pursuit</a>
+              <a className="choice-title-item" href="/#" tabindex="0">Comfort pursuit</a>
               <p className="choice-subtitle-item">
                 Article nor prepare chicken you him <br /> now. Shy merits say
                 advice ten before <br />

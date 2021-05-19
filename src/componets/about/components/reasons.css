@@ -3,12 +3,10 @@
     justify-content: flex-end;
     flex-wrap: wrap;
     align-items: center;
-    border:1px solid transparent;
     margin-top: 55px; 
     max-width:2550px;
 }
-.reasons-inform-wrapper{
-    border:1px solid transparent;  
+.reasons-inform-wrapper{ 
     max-width: 540px;  
 }
 .reason-title{
@@ -18,10 +16,8 @@
     line-height: 50px;
     color: #99EFD0;
     word-break: break-word;
-    border: 1px solid transparent;
 }
 .reasons-subtitle{
-    border:1px solid transparent;
     font-size: 18px;
     line-height: 22px;
     color: #8476AA;
@@ -31,7 +27,6 @@
 }
 
 .reasons-buttons-wrapper{
-    border:1px solid transparent;
     margin-top: 40px;
 }
 .learnmore-btn{
@@ -108,7 +103,6 @@
     font-size: 16px;
     line-height: 22px;
     color: #8476AA;
-    border:1px solid transparent;
     word-break: break-word;
     max-width: 350px;
 }
@@ -119,21 +113,18 @@
     line-height: 22px;
     color: #6D6D78;
     word-break: break-word;
-    border:1px solid transparent;
     margin-top: -15px;
     text-decoration: none;
     cursor: pointer;
 }
 .reasons-video-wrapper{
     display: flex;    
-    border:1px solid transparent;
     margin-top: 60px;
  }
  .reasons-video-text-wrapper{
      display: flex;
      flex-wrap: wrap;
      margin-left: 20px;
-     border:1px solid transparent;
  }
  .videoImg{
      cursor:pointer;
@@ -145,7 +136,6 @@
     transform: scale(1.02);
   }
 .humanImg{
-    border:1px solid transparent;
     width:590px;
     height:580px;
     cursor: pointer;
@@ -173,7 +163,6 @@
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
-        border:1px solid transparent;
         margin-top: 55px; 
         max-width:2550px;
         margin-left: 150px;
@@ -185,11 +174,14 @@
         display: flex; 
         flex-wrap: wrap;
        justify-content: center;
-        border:1px solid transparent;
         margin-top: 105px; 
         max-width:2550px;
     }
     .reasons-inform-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         text-align: center;
     }
     .reasons-video-wrapper{
@@ -197,19 +189,16 @@
         flex-wrap: wrap; 
         align-items: center; 
         flex-direction: column;
-        border:1px solid transparent;
         margin-top: 35px;
      }
      .reasons-video-text-wrapper{
         display: flex;
         text-align: center;
         flex-direction: column;
-        border:1px solid transparent;
         text-align: center;
         margin-top: 10px;
     }
     .humanImg{
-        border:1px solid transparent;
         cursor: pointer;
         width: 60%;
         margin-top: 10px;
@@ -217,14 +206,12 @@
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .top{
-        border:1px solid transparent;
         margin-left:0; 
     }
     .reasons{
         display: flex; 
         flex-wrap: wrap;
        justify-content: center;
-        border:1px solid transparent;
         margin-top: 105px; 
         max-width:2550px;
     }
@@ -236,14 +223,12 @@
         flex-wrap: wrap; 
         align-items: center; 
         flex-direction: column;
-        border:1px solid transparent;
         margin-top: 35px;
      }
      .reasons-video-text-wrapper{
         display: flex;
         text-align: center;
         flex-direction: column;
-        border:1px solid transparent;
         text-align: center;
         margin-top: 10px;
     }
@@ -256,6 +241,16 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .reasons-inform-wrapper{
        text-align: center;
+    }
+    .reason-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 50px;
+        color: #99EFD0;
+        word-break: break-word;
+        max-width: 290px;
+        margin:0 auto;
     }
     .demo-btn{
         margin-left: 3px;
@@ -282,14 +277,12 @@
         flex-wrap: wrap; 
         align-items: center; 
         flex-direction: column;
-        border:1px solid transparent;
         margin-top: 35px;
      }
      .reasons-video-text-wrapper{
         display: flex;
         text-align: center;
         flex-direction: column;
-        border:1px solid transparent;
         text-align: center;
         margin-top: 10px;
     }

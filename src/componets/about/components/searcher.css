@@ -3,7 +3,6 @@
     justify-content: center;
     margin-top: 196px;
     background-image: url('../../../assets/img/backgroundsearcher.svg');
-    border:1px solid transparent;
 }
 .searcher-wrapper{
     display: flex;
@@ -11,7 +10,6 @@
     flex-direction: column;
     width:940px;
     background-image: url('../../../assets/img/searcher-background.png');
-    border:1px solid transparent;
 }
 .searcher-title{
     font-style: normal;
@@ -21,7 +19,6 @@
     text-align: center;
     color: #F2994A;
     margin-top: 50px;
-    border:1px solid transparent;
     max-width: 630px;
     word-break: break-word;
 }
@@ -33,14 +30,12 @@
     text-align: center;
     color: #95A1BB;
     margin-top: 20px;
-    border: 1px solid transparent;
     max-width: 350px;
     word-break: break-word;
 }
 .formInput{
     display: flex;
     justify-content: center;
-    border: 1px solid transparent;
     margin-top: 23px;
 }
 .searcher-input{
@@ -99,7 +94,6 @@
     letter-spacing: 0.2px;
     color: #8476AA;
     margin-top: 16px;
-    border: 1px solid transparent;
     max-width: 350px;
     word-break: break-word;
 }

@@ -3,11 +3,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border:1px solid transparent;
     margin-top: 50px;
 }
 .invest-text-wrapper{
-    border: 1px solid transparent;
     max-width: 470px;
     margin-top: 45px;
     margin-left: auto;
@@ -18,7 +16,6 @@
     font-size: 42px;
     line-height: 50px;
     color: #99EFD0;
-    border:1px solid transparent;
     max-width: 390px;
     word-break: break-word;
 }
@@ -28,7 +25,6 @@
     letter-spacing: 0.5px;
     color: #8476AA;
     margin-top: 32px;
-    border: 1px solid transparent;
     max-width: 460px;
     word-break: break-word;
 }
@@ -66,15 +62,13 @@
         background:#fc7500;
     }
 }
-.invest-img-wrapper{
-    border:1px solid transparent;  
+.invest-img-wrapper{ 
     background-image: url('../../../assets/icons/Invest-map-pict-background.svg');  
     background-repeat: no-repeat;
     width: 600px;
     margin-left: auto;
 }
 .investImg{ 
-   border:1px solid transparent;  
    margin-left: 45px;
 }
 
@@ -83,7 +77,6 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        border:1px solid transparent;
         margin-top: 50px;
         margin-left: 149px;
     }
@@ -91,32 +84,24 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        border:1px solid transparent;
         max-width: 1500px;
     }
     .invest-text-wrapper{
-        border: 1px solid transparent;
         max-width: 470px;
         margin-top: 45px
     }
     .invest-img-wrapper{
-        border:1px solid transparent;  
         background-image: url('../../../assets/icons/Invest-map-pict-background.svg');  
         background-repeat: no-repeat;
         max-width: 600px;
         margin-left: 100px;
     }
-    .investImg{ 
-        border:1px solid transparent;  
-        
-     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .invest-text-wrapper{
         display: flex;
         align-items: center;
         flex-direction: column;
-        border: 1px solid transparent;
         max-width: 470px;
         margin-top: 45px;
         text-align: center;
@@ -129,7 +114,6 @@
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .invest-text-wrapper{
-        border: 1px solid transparent;
         max-width: 470px;
         margin-top: 45px;
         text-align: center;
@@ -142,16 +126,32 @@
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+    .invest-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        color: #99EFD0;
+        max-width: 309px;
+        word-break: break-word;
+        margin:0 auto;
+    }
     .invest-text-wrapper{
-        border: 1px solid transparent;
         max-width: 470px;
         margin-top: 45px;
         text-align: center;
     }
+    .invest-img-wrapper{
+        background-image: url('../../../assets/icons/Invest-map-pict-background.svg');  
+        background-repeat: no-repeat;
+        width: 600px;
+        margin-left: auto;
+    }
     .investImg{
         margin-left: 20px;
         margin-top: 60px;
-        width:91%;
+        width:281px;
+        height:270px;
     }
 }
 

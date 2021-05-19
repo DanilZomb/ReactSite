@@ -13,7 +13,6 @@ function Online() {
           <br />
           will help you work faster without limiting creative freedom.
         </p>
-        <div className="online-wrapper-list">
           <ul className="online-list">
             <li className="online-item icn1">
               <h3 className="online-title-item" tabindex="0">
@@ -35,7 +34,6 @@ function Online() {
             </li>
           </ul>
         </div>
-      </div>
     </section>
   );
 }

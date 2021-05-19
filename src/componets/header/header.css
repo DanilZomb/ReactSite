@@ -6,20 +6,17 @@
 .header-wrapper{
     display: flex;
     justify-content:center;
-    border:1px solid transparent;
 }
 .navbar{
     display: flex;
     justify-content: flex-end;
     background: transparent;
-    border:1px solid transparent;
     max-width: 1100px;
     margin-top: 50px;
 }
 .navbar-nav{
     display: flex;
     flex-wrap: wrap;
-    border:1px solid transparent;
     max-width:390px;
     margin-left:44px;
 }
@@ -46,7 +43,6 @@
 .navbar-btn-list{
     display: flex;
     justify-content: space-between;
-    border:1px solid transparent;
     max-width:280px;
     list-style-type:none;
     margin-left: 280px;
@@ -118,7 +114,6 @@
 }
 @media (min-width: 320px) and (max-width: 992px) {
     .navbar{
-        border:1px solid transparent;
         width:1000px;
     }
     .collapse{
@@ -131,7 +126,6 @@
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: row;
-        border:1px solid transparent;
         margin-left:0px;
     } 
     .nav-item{

@@ -12,32 +12,32 @@ function Logoicons() {
         <selector>
             <ul className="brandicons-wrapper-list">
                 <li className="brandicons-item">
-                    <a href="#">
+                    <a href="/#">
                         <img src={MarkIcon} alt="icon"/>
                     </a>
                 </li>
                 <li className="brandicons-item">
-                    <a href="#">
+                    <a href="/#">
                         <img src={MarkIcon2} alt="icon"/>
                     </a>
                 </li>
                 <li className="brandicons-item">
-                    <a href="#">
+                    <a href="/#">
                         <img src={MarkIcon3} alt="icon"/>
                     </a>
                 </li>
                 <li className="brandicons-item">
-                    <a href="#">
+                    <a href="/#">
                         <img src={MarkIcon4} alt="icon"/>
                     </a>
                 </li>
                 <li className="brandicons-item">
-                    <a href="#">
+                    <a href="/#">
                         <img src={MarkIcon5} alt="icon"/>
                     </a>
                 </li>
                 <li className="brandicons-item">
-                    <a href="#">
+                    <a href="/#">
                         <img src={MarkIcon6} alt="icon"/>
                     </a>
                 </li>

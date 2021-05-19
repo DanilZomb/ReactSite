@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border:1px solid transparent;
     max-width:1170px;
     margin: 91px auto; 
 }
@@ -11,6 +10,10 @@
 }
 @media (min-width: 320px) and (max-width: 485px) {
     .brandicons-wrapper-list{
-        margin-left: -34px;
+        max-width:250px;
+        padding: 10px 0;
+    }
+    .brandicons-item{
+        margin-top: 35px;
     }
 }

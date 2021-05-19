@@ -3,24 +3,18 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    border:1px solid transparent;
     margin-top: 150px;
 }
 .online-wrapper{
-    border:1px solid transparent;
     max-width: 1500px;
     margin-top: 100px;
 }
-.online-wrapper-list{
-    border:1px solid transparent;
-    margin-top: 100px;
-}
+
 .online-list{
     display: flex;
     justify-content:flex-start;
     flex-wrap: wrap;
-    border:1px solid transparent;
-    margin-top: -39px;
+    margin-top:70px;
     max-width: 700px;
     margin-left: -33px;
 }
@@ -42,7 +36,6 @@ content: url(../../../assets/icons/online-icon1.svg);
     line-height: 32px;
     letter-spacing: 0.325px;
     color: #99EFD0;
-    border:1px solid transparent;
     max-width: 430px;
     word-break: break-word;
 }
@@ -52,7 +45,6 @@ content: url(../../../assets/icons/online-icon1.svg);
     letter-spacing: 0.2px;
     color: #8476AA;
     margin-top: 32px;
-    border:1px solid transparent;
     max-width: 420px;
     word-break: break-word;
 }
@@ -65,7 +57,6 @@ content: url(../../../assets/icons/online-icon1.svg);
     color: #99EFD0;
     margin-top: 10px;
     cursor: pointer;
-    border:1px solid transparent;
     max-width: 130px;
     word-break: break-word;
     
@@ -79,7 +70,6 @@ content: url(../../../assets/icons/online-icon1.svg);
     letter-spacing: 0.2px;
     color: #8476AA;
     margin-top: 8px;
-    border:1px solid transparent;
     max-width: 220px;
     word-break: break-word;
 }
@@ -88,35 +78,70 @@ content: url(../../../assets/icons/online-icon1.svg);
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        border:1px solid transparent;
         margin-top: 150px;
     }
     .online-wrapper{
-        border:1px solid transparent;
         max-width: 1500px;
         margin-top: 100px;
         margin-left: 230px;
     }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .online-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .online-desc{
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+        margin-top: 32px;
+        max-width: 420px;
+        word-break: break-word;
+        text-align: center;
+    }
+    .online-list{
+        flex-wrap: wrap;
+        margin-top: 50px;
+        max-width: 600px; 
+        margin-left: auto;
+    }
+    .online-item{
+        text-align: center;
+    }
+    .online-title-item{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: #99EFD0;
+        margin-top: 10px;
+        cursor: pointer;
+        max-width: 130px;
+        word-break: break-word;
+        margin: 0 auto;
+    } 
 }
 @media (min-width: 481px) and (max-width: 767px) {
     .online{
         margin-left: 0px;
         }
         .online-wrapper{
-            border:1px solid transparent;
             max-width: 300px;
             margin-top: 30px;
             text-align: center;
         }
         .online-wrapper-list{
-            border:1px solid transparent;
             margin-top: 45px;
         }
         .online-list{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            border:1px solid transparent;
             max-width: 480px;
             text-align: center;
         }
@@ -127,7 +152,6 @@ content: url(../../../assets/icons/online-icon1.svg);
             align-items: center;
             flex-direction: column;
             margin-left: 60px;
-            border:1px solid transparent;
         }
         .onlineImg{
             width:90%;
@@ -139,22 +163,17 @@ content: url(../../../assets/icons/online-icon1.svg);
     margin-left: 0px;
     }
     .online-wrapper{
-        border:1px solid transparent;
         max-width: 300px;
         margin-top: 30px;
         text-align: center;
-    }
-    .online-wrapper-list{
-        border:1px solid transparent;
-        margin-top: 45px;
     }
     .online-list{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        border:1px solid transparent;
         max-width: 480px;
         text-align: center;
+        margin-top:19px;
     }
     .online-item{
         margin-top: 30px;
@@ -163,7 +182,6 @@ content: url(../../../assets/icons/online-icon1.svg);
         align-items: center;
         flex-direction: column;
         margin-left: 60px;
-        border:1px solid transparent;
     }
     .onlineImg{
         width:90%;
