@@ -2,23 +2,31 @@
     margin:0;
     padding:0;
 }
-
+@font-face {
+    font-family:Gilroy;
+    src: url(../../shrifts/gilroy-semibold.ttf);
+}
 .header-wrapper{
-    display: flex;
-    justify-content:center;
+    padding-top: 50px;
 }
-.navbar{
+.navbar {
     display: flex;
-    justify-content: flex-end;
-    background: transparent;
-    max-width: 1100px;
-    margin-top: 50px;
-}
-.navbar-nav{
+    justify-content: space-between;
+    background-color:transparent;
+    justify-content: flex-start;
+    max-width: 1025px;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    z-index: 20;
+    margin: 0 auto;
+  }
+  .nav-list{
     display: flex;
     flex-wrap: wrap;
-    max-width:390px;
+    max-width:400px;
     margin-left:44px;
+    margin-top: 10px;
 }
 .nav-item{
     display:flex;
@@ -29,19 +37,19 @@
     color: white;
     text-decoration:none;
 }
-.navbar-light .navbar-nav .nav-link {
+.nav-link{
     color: #B5B5B5;
+    font-family: "Gilroy",Arial,sans-serif;
 }
-.navbar-light .navbar-nav .nav-link:hover{
-    color: #e9e9e9;
+.nav-link:hover,
+.nav-link:active
+{
+ color:white;
 }
-.navbar-light .navbar-nav .nav-link:focus{
-    color: #e9e9e9;
-}
-
-
+  
 .navbar-btn-list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width:280px;
     list-style-type:none;
@@ -57,6 +65,7 @@
     background: transparent;
     box-sizing: border-box;
     border-radius: 4px;
+    font-family: "Rubik",Arial,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -65,6 +74,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #F2994A;   
+    cursor: pointer; 
 }
 .sign-in-btn:hover{
     border: 1px solid #fc7500;
@@ -88,6 +98,7 @@
     background: #F2994A;
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
     border-radius: 3px;
+    font-family: "Rubik",Arial,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -95,7 +106,8 @@
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    cursor: pointer;    
 }
 .sign-up-btn:hover{
     border: 1px solid #f88825;
@@ -111,25 +123,87 @@
         border: 1px solid #f88825;
         background:#f88825;
     }
-}
-@media (min-width: 320px) and (max-width: 992px) {
-    .navbar{
-        width:1000px;
+} 
+
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  .nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+    color: white;
+  }
+  .nav-icon {
+    display: none;
+  }
+  
+
+  @media screen and (max-width: 1100px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1pxsolid #fff;
+      position: absolute;
+      top: 80px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
     }
-    .collapse{
+    .nav-menu.active {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        align-items: center;
+        background: #371b5a;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
     }
-    .navbar-nav{
+    .nav-item .active {
+      color: #ffdd40;
+      border: none;
+    }
+    .nav-links {
+      padding: 1.5rem;
+      width: 100%;
+      display: table;
+    }
+    .navbar-btn-list{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: row;
-        margin-left:0px;
-    } 
-    .nav-item{
-        margin-left: 11px;
-        
+        justify-content: space-between;
+        max-width:280px;
+        list-style-type:none;
+        margin: 0 auto;
     }
-}
+    .nav-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: #ffdd40;
+    }
+    .btn-menu{
+        margin-top:-10px;
+        margin-left: -35px;
+        width:55px;
+        height: 31px;
+        background:transparent;
+        border:1px solid transparent;
+        font-size: 30px;
+        z-index: 3;
+    }
+    .logoImg{
+        margin-top: 11px;
+        margin-left: 19px;
+    }
+   
+  }

@@ -30,6 +30,9 @@ a{
 .pages-links-list .pages-link-item{
     margin-top:16px;
 }
+.pages-link-item{
+    font-family: "Rubik",Arial,sans-serif;
+}
 .footer-title{
     font-style: normal;
     font-weight: bold;
@@ -38,7 +41,8 @@ a{
     letter-spacing: 0.325px;
     color: #F2994A; 
     max-width: 190px;
-    word-break: break-word;      
+    word-break: break-word;   
+    font-family: "Inter",Arial,sans-serif;   
 }
 .icons-item{
     display: inline;
@@ -53,6 +57,7 @@ a{
     color: #FFFFFF;
     max-width: 100px;
     word-break: break-word;  
+    font-family: "Inter",Arial,sans-serif;
 }
 
 .footer-subtitle-item{
@@ -101,6 +106,7 @@ a{
 .footer-item{
     max-width: 150px;
     word-break: break-word;
+    font-family: "Inter",Arial,sans-serif;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -147,16 +153,17 @@ a{
         display: flex;
         justify-content: space-around;
      }
+     .pages-links-list{
+         margin-left: 5px;
+     }
     .icons-wrapper{
         margin-top: 25px;
-        margin-left: -33px;
     }
     .pages-wrapper-list{
         display: flex;
         justify-content: center;
         max-width:992px;
         margin-top: 59px;
-        margin-left: -49px;
     }
     .footer-title{
         font-style: normal;

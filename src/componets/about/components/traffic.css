@@ -19,6 +19,7 @@
     color: #99EFD0;
     max-width: 320px;
     word-break: break-word;
+    font-family: "Inter",Arial,sans-serif;
 }
 .traffic-text{
     font-size: 15px;
@@ -28,6 +29,7 @@
     margin-top: 32px;
     max-width: 600px;
     word-break: break-word;
+    font-family: "Gilroy",Arial,sans-serif;
 }
 .text-color{
     color:#F2994A;
@@ -41,6 +43,7 @@
     background: #F2994A;
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
     border-radius: 3px;
+    font-family: "Rubik",Arial,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;

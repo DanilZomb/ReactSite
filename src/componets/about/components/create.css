@@ -13,6 +13,7 @@
     color: #99EFD0; 
     max-width:750px;
     word-break: break-word;
+    font-family: "Inter",Arial,sans-serif;
 }
 .getStart-btn{
     border:1px solid #F2994A;
@@ -22,6 +23,7 @@
     background: #F2994A;
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
     border-radius: 3px;
+    font-family: "Rubik",Arial,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;

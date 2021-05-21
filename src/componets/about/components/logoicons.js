@@ -9,7 +9,7 @@ import MarkIcon6 from "../../../assets/icons/mark-icon6.svg";
 
 function Logoicons() {
     return (
-        <selector>
+        <section>
             <ul className="brandicons-wrapper-list">
                 <li className="brandicons-item">
                     <a href="/#">
@@ -42,7 +42,7 @@ function Logoicons() {
                     </a>
                 </li>
             </ul>
-        </selector>
+        </section>
     );
 }
 

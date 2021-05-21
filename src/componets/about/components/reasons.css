@@ -13,11 +13,13 @@
     font-style: normal;
     font-weight: bold;
     font-size: 44px;
+    font-family: "Inter",Arial,sans-serif;
     line-height: 50px;
     color: #99EFD0;
     word-break: break-word;
 }
 .reasons-subtitle{
+    font-family: "Gilroy",Arial,sans-serif;
     font-size: 18px;
     line-height: 22px;
     color: #8476AA;
@@ -36,6 +38,7 @@
     background: #F2994A;
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
     border-radius: 3px;
+    font-family: "Rubik",Arial,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -71,6 +74,7 @@
     border: 1px solid #F2994A;
     box-sizing: border-box;
     border-radius: 4px;
+    font-family: "Rubik",Arial,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -100,6 +104,7 @@
 .reasons-video-text{
     font-style: normal;
     font-weight: normal;
+    font-family: "Rubik",Arial,sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: #8476AA;
@@ -109,11 +114,11 @@
 .reasons-video-text2{
     font-style: normal;
     font-weight: normal;
+    font-family: "Rubik",Arial,sans-serif;
     font-size: 14px;
     line-height: 22px;
     color: #6D6D78;
     word-break: break-word;
-    margin-top: -15px;
     text-decoration: none;
     cursor: pointer;
 }

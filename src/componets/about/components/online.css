@@ -9,14 +9,13 @@
     max-width: 1500px;
     margin-top: 100px;
 }
-
 .online-list{
     display: flex;
     justify-content:flex-start;
     flex-wrap: wrap;
     margin-top:70px;
     max-width: 700px;
-    margin-left: -33px;
+    border:1px solid transparent;
 }
 .online-item{
     margin: 0 50px;
@@ -38,6 +37,7 @@ content: url(../../../assets/icons/online-icon1.svg);
     color: #99EFD0;
     max-width: 430px;
     word-break: break-word;
+    font-family: "Inter",Arial,sans-serif;
 }
 .online-desc{
     font-size: 15px;
@@ -47,6 +47,7 @@ content: url(../../../assets/icons/online-icon1.svg);
     margin-top: 32px;
     max-width: 420px;
     word-break: break-word;
+    font-family: "Gilroy",Arial,sans-serif;
 }
 .online-title-item{
     font-style: normal;
@@ -59,6 +60,7 @@ content: url(../../../assets/icons/online-icon1.svg);
     cursor: pointer;
     max-width: 130px;
     word-break: break-word;
+    font-family: "Inter",Arial,sans-serif;
     
 }
 .online-title-item:hover{
@@ -72,6 +74,7 @@ content: url(../../../assets/icons/online-icon1.svg);
     margin-top: 8px;
     max-width: 220px;
     word-break: break-word;
+    font-family: "Gilroy",Arial,sans-serif;
 }
 @media(min-width:1440px) and (max-width:2560px){
     .online{

@@ -21,8 +21,10 @@
     margin-top: 50px;
     max-width: 630px;
     word-break: break-word;
+    font-family: "Rubik",Arial,sans-serif;
 }
 .searcher-desc{
+    font-family: "Rubik",Arial,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -96,6 +98,8 @@
     margin-top: 16px;
     max-width: 350px;
     word-break: break-word;
+    font-family: "Gilroy",Arial,sans-serif;
+    padding-bottom: 50px;
 }
 @media (min-width: 768px) and (max-width: 1024px){
     .searcher-wrapper{
@@ -154,9 +158,10 @@
     .searcher-btn{
         border:1px solid #F2994A;
         max-width:50px;
-        max-height:34px;
+        max-height:37px;
         background: #F2994A;
         border-radius: 0px 5px 5px 0px;
+        font-family: "Rubik",Arial,sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 9px;

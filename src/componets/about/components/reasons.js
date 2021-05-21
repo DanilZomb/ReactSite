@@ -32,7 +32,7 @@ function Reasons() {
               </div>
             </div>
           </div>
-        <img src={Human} alt="human" className="humanImg"  width="590" height="580"/>
+        <img src={Human} alt="human" className="humanImg" width="590" height="580"/>
     </section>
   );
 }

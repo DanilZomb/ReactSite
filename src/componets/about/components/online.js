@@ -15,7 +15,7 @@ function Online() {
         </p>
           <ul className="online-list">
             <li className="online-item icn1">
-              <h3 className="online-title-item" tabindex="0">
+              <h3 className="online-title-item" tabIndex="0">
                 Feature One
               </h3>
               <p className="online-desc-item">
@@ -24,7 +24,7 @@ function Online() {
               </p>
             </li>
             <li className="online-item icn2">
-              <h3 className="online-title-item" tabindex="0">
+              <h3 className="online-title-item" tabIndex="0">
                 Feature Two
               </h3>
               <p className="online-desc-item">
